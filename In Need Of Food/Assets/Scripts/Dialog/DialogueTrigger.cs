@@ -17,12 +17,12 @@ public class DialogueTrigger : MonoBehaviour
         visualCue.SetActive(false);
     }
 
-    private void Update()
+/*private void Update()
     {
         if (npcInRange)
         {
             visualCue.SetActive(true);
-            if (InputManager.GetInstance().GetInteractPressed())
+           if (InputManager.GetInstance().GetInteractPressed())
             {
                 Debug.Log(inkJSON.text); 
             }
@@ -31,7 +31,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             visualCue.SetActive(false);
         }
-    }
+    }*/
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
