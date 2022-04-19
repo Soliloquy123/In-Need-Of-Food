@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CamControl : MonoBehaviour
 {
+    public GameObject bell;
+
     int position = 0;
 
     // Start is called before the first frame update
@@ -18,14 +20,17 @@ public class CamControl : MonoBehaviour
         if (position == 0)
         {
             transform.position = new Vector3(0f, 0f, -10f);
+            bell.SetActive(true);
         }
         else if (position == 1)
         {
             transform.position = new Vector3(31.52f, 0f, -10f);
+            bell.SetActive(false);
         }
         else if (position == 2)
         {
             transform.position = new Vector3(58.47f, 0f, -10f);
+            bell.SetActive(false);
         }
 
         
