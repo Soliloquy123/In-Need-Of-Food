@@ -11,6 +11,8 @@ public class NPCTrigger : MonoBehaviour
     public GameObject destination;
     bool bells = false;
 
+    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +22,18 @@ public class NPCTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("b") && !Bell)
+        // when B is pressed the first npc spawns in the seconnd background
+        if (Input.GetKeyDown("b") && !bells)
         {
+            
             bells = true;
             NPC1.transform.position = destination.transform.position;
+
+            audioSource.Play();
+
+            
         }
     }
 
-    public void RingBell()
-    {
-        
-    }
+   
 }
