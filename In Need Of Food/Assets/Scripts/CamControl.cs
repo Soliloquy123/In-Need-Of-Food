@@ -5,6 +5,8 @@ using UnityEngine;
 public class CamControl : MonoBehaviour
 {
     public GameObject bell;
+    public GameObject dialogPanel;
+    public GameObject NPCText;
 
     int position = 0;
 
@@ -21,16 +23,23 @@ public class CamControl : MonoBehaviour
         {
             transform.position = new Vector3(0f, 0f, -10f);
             bell.SetActive(true);
+            dialogPanel.SetActive(false);
+            NPCText.SetActive(false);
+
         }
         else if (position == 1)
         {
             transform.position = new Vector3(31.52f, 0f, -10f);
             bell.SetActive(false);
+            dialogPanel.SetActive(true);
+            NPCText.SetActive(true);
         }
         else if (position == 2)
         {
             transform.position = new Vector3(58.47f, 0f, -10f);
             bell.SetActive(false);
+            dialogPanel.SetActive(false);
+            NPCText.SetActive(false);
         }
 
         
