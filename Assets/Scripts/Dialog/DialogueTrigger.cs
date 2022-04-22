@@ -22,11 +22,11 @@ private void Update()
         if (npcInRange)
         {
             visualCue.SetActive(true);
-           
+           if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log(inkJSON.text);
+            }
         }
-       //{
-       //     Debug.Log(inkJSON.text);
-       // }
        
         else
         {
