@@ -13,25 +13,26 @@ public class DialogueTrigger : MonoBehaviour
     private bool npcInRange;
     private void Awake()
     {
-        npcInRange = false;
-        visualCue.SetActive(false);
+        npcInRange = true;
+        visualCue.SetActive(true);
     }
 
-/*private void Update()
+private void Update()
     {
         if (npcInRange)
         {
             visualCue.SetActive(true);
-           if (InputManager.GetInstance().GetInteractPressed())
-            {
-                Debug.Log(inkJSON.text); 
-            }
+           
         }
+       //{
+       //     Debug.Log(inkJSON.text);
+       // }
+       
         else
         {
-            visualCue.SetActive(false);
+            visualCue.SetActive(true);
         }
-    }*/
+    }
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
