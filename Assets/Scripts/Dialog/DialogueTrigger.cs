@@ -22,9 +22,9 @@ private void Update()
         if (npcInRange)
         {
             visualCue.SetActive(true);
-           if (Input.GetKeyDown(KeyCode.Space))
+           if (Input.GetKeyDown(KeyCode.W))
             {
-                Debug.Log(inkJSON.text);
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
         }
        
