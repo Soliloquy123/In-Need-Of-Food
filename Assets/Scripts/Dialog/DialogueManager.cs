@@ -8,9 +8,20 @@ public class DialogueManager : MonoBehaviour
 
 {
     [Header("Dialogue UI")]
+   
     [SerializeField] private GameObject dialoguePanel;
+   
     [SerializeField] private TextMeshProUGUI dialogueText;
 
+
+    [Header("Choices UI")]
+    
+    [SerializeField] private GameObject[] choices;
+
+    private TextMeshProUGUI[] choicesText;
+
+
+   
     private Story currentStory;
 
     public bool dialogueIsPlaying;
@@ -36,6 +47,15 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+
+        //get all of the choices text
+        choicesText = new TextMeshProUGUI[choices.Length];
+        int index = 0;
+        foreach (GameObject choice in choices)
+        {
+            choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
+            index++;
+        }
 
     }
 
@@ -79,6 +99,17 @@ public class DialogueManager : MonoBehaviour
         else
         {
             ExitDialogueMode();
+        }
+    }
+
+    private void DisplayChoices()
+    {
+        List<Choice> currentChoices = currentStory.currentChoices;
+
+        // defensive check to make sure our UI can suppport the number of choices coming in
+        if (currentChoices.Count > choices.Length)
+        {
+            Debug.LogError("More choices were given than the UI can support. Number of choices given: " + currentChoices.Count);
         }
     }
 }

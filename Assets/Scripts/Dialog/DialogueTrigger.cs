@@ -10,6 +10,8 @@ public class DialogueTrigger : MonoBehaviour
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
 
+    bool dialoguePanel = false;
+
     private bool npcInRange;
     private void Awake()
     {
@@ -32,6 +34,12 @@ private void Update()
         {
             visualCue.SetActive(true);
         }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            dialoguePanel = true;
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
