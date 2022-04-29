@@ -24,9 +24,10 @@ private void Update()
         if (npcInRange)
         {
             visualCue.SetActive(true);
-           if (Input.GetKeyDown(KeyCode.W))
+           if (Input.GetKeyDown(KeyCode.B))
             {
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+                dialoguePanel = true;
             }
         }
        
@@ -35,10 +36,10 @@ private void Update()
             visualCue.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            dialoguePanel = true;
-        }
+       // if (Input.GetKeyDown(KeyCode.B))
+       // {
+      //      dialoguePanel = true;
+     //   }
 
     }
 

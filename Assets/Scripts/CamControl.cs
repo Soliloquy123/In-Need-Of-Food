@@ -31,7 +31,8 @@ public class CamControl : MonoBehaviour
         {
             transform.position = new Vector3(31.52f, 0f, -10f);
             bell.SetActive(false);
-            dialogPanel.SetActive(false);
+            dialogPanel.SetActive(true);
+            
             NPCText.SetActive(true);
         }
         else if (position == 2)
