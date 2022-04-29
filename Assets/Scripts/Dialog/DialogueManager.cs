@@ -94,7 +94,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentStory.canContinue)
         {
+            // set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
+            // display choices, if any, for this dialogue line 
+            DisplayChoices();
         }
         else
         {
@@ -110,6 +113,20 @@ public class DialogueManager : MonoBehaviour
         if (currentChoices.Count > choices.Length)
         {
             Debug.LogError("More choices were given than the UI can support. Number of choices given: " + currentChoices.Count);
+        }
+
+        int index = 0;
+        //enable and intialize the choices up to the amount of choices for this line of dialogue
+        foreach(Choice choice in currentChoices)
+        {
+            choices[index].gameObject.SetActive(true);
+            choicesText[index].text = choice.text;
+            index++;
+        }
+        // go throught the remaining choices the UI supports and make sure they're hidden
+        for (int i = index; i < choices.Length; i++)
+        {
+            choices[i].gameObject.SetActive(false);
         }
     }
 }
