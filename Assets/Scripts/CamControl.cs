@@ -10,10 +10,17 @@ public class CamControl : MonoBehaviour
 
     int position = 0;
 
+    public GameObject bellPressed;
+    
+   
+    
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        bool bellPressed = false;
+
+        bellPressed = (Input.GetKeyDown(KeyCode.B));
     }
 
     // Update is called once per frame
@@ -49,7 +56,7 @@ public class CamControl : MonoBehaviour
 
     public void NextScreen()
     {
-        if (position == 2)
+        if ((position == 2) &&  bellPressed == true )
         {
             position = 0;  
         }
@@ -62,7 +69,7 @@ public class CamControl : MonoBehaviour
 
     public void BackScreen()
     {
-        if (position == 0)
+        if ((position == 0) && bellPressed == true)
         {
             position = 2;
         }
