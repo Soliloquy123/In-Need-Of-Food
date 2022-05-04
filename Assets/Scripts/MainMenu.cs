@@ -18,6 +18,10 @@ public void LeaveGame()
 Application.Quit();
 }
 
+public void CreditsLoad()
+{
+SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+}
 
 
 
