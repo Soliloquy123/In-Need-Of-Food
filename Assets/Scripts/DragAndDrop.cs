@@ -10,6 +10,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
 
     private RectTransform rectTransform;
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
