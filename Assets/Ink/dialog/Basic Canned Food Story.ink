@@ -6,8 +6,9 @@ Give Person Food?
          How much?
             ** 1 Stock
             ** 2 Stock
-        - - Your Welcome    
+        - - Please wait until i sort out the cans Thank you for your patience    
     *No
-
+    Why ! 
+    
 - Please Move Along!
     -> END
