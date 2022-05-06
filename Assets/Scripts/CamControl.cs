@@ -9,6 +9,12 @@ public class CamControl : MonoBehaviour
     public GameObject NPCText;
     public GameObject controls;
 
+    public GameObject bellInstructions;
+
+    public GameObject arrowInstructions;
+
+    public GameObject dialogInstructions;
+
     int position = 0;
 
     public GameObject bellPressed;
@@ -31,6 +37,9 @@ public class CamControl : MonoBehaviour
             dialogPanel.SetActive(false);
             NPCText.SetActive(false);
             controls.SetActive(false);
+            arrowInstructions.SetActive(true);
+            bellInstructions.SetActive(true);
+            dialogInstructions.SetActive(false);
 
         }
         else if (position == 1)
@@ -40,6 +49,9 @@ public class CamControl : MonoBehaviour
             dialogPanel.SetActive(true);
             controls.SetActive(true);
             NPCText.SetActive(true);
+            arrowInstructions.SetActive(false);
+            bellInstructions.SetActive(false);
+            dialogInstructions.SetActive(true);
         }
         else if (position == 2)
         {
@@ -48,6 +60,9 @@ public class CamControl : MonoBehaviour
             dialogPanel.SetActive(false);
             NPCText.SetActive(false);
             controls.SetActive(false);
+            arrowInstructions.SetActive(false);
+            bellInstructions.SetActive(false);
+            dialogInstructions.SetActive(false);
         }
 
         if(Input.GetKeyDown(KeyCode.B))
