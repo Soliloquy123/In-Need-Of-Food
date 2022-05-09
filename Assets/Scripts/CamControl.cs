@@ -15,6 +15,8 @@ public class CamControl : MonoBehaviour
 
     public GameObject dialogInstructions;
 
+    public GameObject foodInstructions;
+
     int position = 0;
 
     public GameObject bellPressed;
@@ -40,7 +42,7 @@ public class CamControl : MonoBehaviour
             arrowInstructions.SetActive(true);
             bellInstructions.SetActive(true);
             dialogInstructions.SetActive(false);
-
+            foodInstructions.SetActive(true);
         }
         else if (position == 1)
         {
@@ -52,6 +54,7 @@ public class CamControl : MonoBehaviour
             arrowInstructions.SetActive(false);
             bellInstructions.SetActive(false);
             dialogInstructions.SetActive(true);
+            foodInstructions.SetActive(false);
         }
         else if (position == 2)
         {
@@ -63,6 +66,7 @@ public class CamControl : MonoBehaviour
             arrowInstructions.SetActive(false);
             bellInstructions.SetActive(false);
             dialogInstructions.SetActive(false);
+            foodInstructions.SetActive(false);
         }
 
         if(Input.GetKeyDown(KeyCode.B))
