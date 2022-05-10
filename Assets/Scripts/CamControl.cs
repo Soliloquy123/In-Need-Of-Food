@@ -118,16 +118,7 @@ public class CamControl : MonoBehaviour
     public void RingBell()
     {
         // when B is pressed the first npc spawns in the seconnd background
-        if (!bells)
-        {
-
-            bells = true;
-            NPC1.transform.position = destination.transform.position;
-
-            audioSource.Play();
-
-
-        }
+        bellPressed1 = true;
     }
 
 
