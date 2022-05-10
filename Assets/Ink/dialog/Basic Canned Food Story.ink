@@ -5,12 +5,9 @@ Starving Man: Please
 Im in need of food 
 I've been starving for three weeks
 Can you give me 2 portioins of food ?
-Me: 
-Why?
- Starving "Father":  
- My Daughter is also starving 
-Me: 
-Where is She?
+Me: Why?
+ Starving "Father":  My Daughter is also starving 
+Me: Where is She?
 Starving "Father": ... At Home 
 
 Give Person Food?
