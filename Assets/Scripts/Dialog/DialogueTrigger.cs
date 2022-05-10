@@ -19,15 +19,17 @@ public class DialogueTrigger : MonoBehaviour
         visualCue.SetActive(true);
     }
 
-private void Update()
+public void BellRung()
     {
         if (npcInRange)
+
         {
             visualCue.SetActive(true);
-           if (Input.GetKeyDown(KeyCode.B))
+            
             {
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
                 dialoguePanel = true;
+                
             }
         }
        

@@ -21,6 +21,15 @@ public class CamControl : MonoBehaviour
 
     public GameObject bellPressed;
 
+    public GameObject Bell;
+    public GameObject NPC1;
+    public GameObject NPC2;
+    public GameObject NPC3;
+    public GameObject destination;
+    bool bells = false;
+
+    public AudioSource audioSource;
+
     bool bellPressed1 = false;
 
     // Start is called before the first frame update
@@ -106,4 +115,21 @@ public class CamControl : MonoBehaviour
         }
 
     }
+    public void RingBell()
+    {
+        // when B is pressed the first npc spawns in the seconnd background
+        if (!bells)
+        {
+
+            bells = true;
+            NPC1.transform.position = destination.transform.position;
+
+            audioSource.Play();
+
+
+        }
+    }
+
+
 }
+

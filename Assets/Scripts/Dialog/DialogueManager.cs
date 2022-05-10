@@ -60,7 +60,7 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    private void Update()
+     void Update()
     {
         // return right away if dialogue isn't playing
         if (!dialogueIsPlaying)
@@ -68,7 +68,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         // handle continuing to the next line in the dialogue when submit is pressed
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             ContinueStory();
         }

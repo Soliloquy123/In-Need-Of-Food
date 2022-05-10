@@ -20,10 +20,10 @@ public class NPCTrigger : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void RingBell()
     {
         // when B is pressed the first npc spawns in the seconnd background
-        if (Input.GetKeyDown("b") && !bells)
+        if (!bells)
         {
             
             bells = true;
