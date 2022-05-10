@@ -60,20 +60,6 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-     void Update()
-    {
-        // return right away if dialogue isn't playing
-        if (!dialogueIsPlaying)
-        {
-            return;
-        }
-        // handle continuing to the next line in the dialogue when submit is pressed
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            ContinueStory();
-        }
-    }
-
     public void EnterDialogueMode(TextAsset inkJSON)
     {
         currentStory = new Story(inkJSON.text);
@@ -91,7 +77,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
     }
 
-    private void ContinueStory()
+    public void ContinueStory()
     {
         if (currentStory.canContinue)
         {
