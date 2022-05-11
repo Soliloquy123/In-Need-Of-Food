@@ -30,7 +30,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         Debug.Log("OnDrag");
         //rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-         rectTransform.anchoredPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+         rectTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        rectTransform.position = new Vector3(rectTransform.position.x, rectTransform.position.y, -8f); ;
     }
 
         public void OnEndDrag(PointerEventData eventData)
