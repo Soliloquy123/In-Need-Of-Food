@@ -524,7 +524,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6453af13d4e594d4ca294dc870fc71bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.577
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1524,7 +1524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 314.2, y: -223}
+  m_AnchoredPosition: {x: 314.2, y: -210.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355795327
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press B On The Keyboard To Ring The Bell
+  m_text: Click On Bell Icon To Ring The Bell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1254782726205b645b7feb497590923b, type: 2}
   m_sharedMaterial: {fileID: 6287917171653051930, guid: 1254782726205b645b7feb497590923b, type: 2}
@@ -3524,7 +3524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297, y: -207}
+  m_AnchoredPosition: {x: -297, y: -191.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023736115
@@ -6404,12 +6404,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'To advance dialogue
 
-    Press E to advance line
+    Left Click > Icon to advance line
 
-    Left Click option
-    to choose it
+    Left Click
+    option to choose it
 
-    if dialogue goes blank press B'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1254782726205b645b7feb497590923b, type: 2}
   m_sharedMaterial: {fileID: 6287917171653051930, guid: 1254782726205b645b7feb497590923b, type: 2}

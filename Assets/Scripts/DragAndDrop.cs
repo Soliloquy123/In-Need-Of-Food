@@ -14,15 +14,15 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        canvasGroup = GetComponent<CanvasGroup>();
+       canvasGroup = GetComponent<CanvasGroup>();
     }
 
-
+ 
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-        canvasGroup.alpha = .6f;
+         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
     }
 
@@ -30,20 +30,20 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         Debug.Log("OnDrag");
         //rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-
-        rectTransform.anchoredPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+         rectTransform.anchoredPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        Debug.Log("OnEndDrag");
-        canvasGroup.alpha = 1f;
-        canvasGroup.blocksRaycasts = true;
+        public void OnEndDrag(PointerEventData eventData)
+        {
+            Debug.Log("OnEndDrag");
+            canvasGroup.alpha = 1f;
+            canvasGroup.blocksRaycasts = true;
+        }
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            Debug.Log("OnPointerDown");
+        }
+
     }
 
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        Debug.Log("OnPointerDown");
-    }
-
-}
