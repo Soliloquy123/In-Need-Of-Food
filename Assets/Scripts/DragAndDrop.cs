@@ -9,6 +9,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     [SerializeField] private Canvas canvas;
 
     public GameObject itemSlot;
+    public GameObject itemSlot2;
+    public GameObject itemSlot3;
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -42,7 +44,9 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         if (eventData.pointerDrag != null)
         {
             Debug.Log("Getting Stuck");
-            GetComponent<RectTransform>().anchoredPosition = itemSlot.GetComponent<RectTransform>().anchoredPosition;
+            GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
+            GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
+            GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
             Debug.Log("OnStuck");
         }
     }
