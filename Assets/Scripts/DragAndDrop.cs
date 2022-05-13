@@ -8,6 +8,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 {
     [SerializeField] private Canvas canvas;
 
+    public GameObject itemSlot;
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -16,8 +17,6 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         rectTransform = GetComponent<RectTransform>();
        canvasGroup = GetComponent<CanvasGroup>();
     }
-
- 
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -30,21 +29,27 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         Debug.Log("OnDrag");
         //rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-         rectTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        rectTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         rectTransform.position = new Vector3(rectTransform.position.x, rectTransform.position.y, -8f); ;
     }
 
-        public void OnEndDrag(PointerEventData eventData)
-        {
-            Debug.Log("OnEndDrag");
-            canvasGroup.alpha = 1f;
-            canvasGroup.blocksRaycasts = true;
-        }
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        Debug.Log("OnEndDrag");
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
 
-        public void OnPointerDown(PointerEventData eventData)
+        if (eventData.pointerDrag != null)
         {
-            Debug.Log("OnPointerDown");
+            Debug.Log("Getting Stuck");
+            GetComponent<RectTransform>().anchoredPosition = itemSlot.GetComponent<RectTransform>().anchoredPosition;
+            Debug.Log("OnStuck");
         }
-
     }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        Debug.Log("OnPointerDown");
+    }
+}
 
