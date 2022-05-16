@@ -45,7 +45,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         {
             Debug.Log("Getting Stuck");
             GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
-            GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
+            GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
             GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
             Debug.Log("OnStuck");
         }
