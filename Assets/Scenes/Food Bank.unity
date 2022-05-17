@@ -321,9 +321,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &80054494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -465,9 +462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &92461738
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -575,7 +569,7 @@ RectTransform:
   m_GameObject: {fileID: 102291961}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8808258, y: 1.0235853, z: 1.0235853}
+  m_LocalScale: {x: 0.96582556, y: 1.1223613, z: 1.1223613}
   m_Children:
   - {fileID: 195855201}
   m_Father: {fileID: 1040194068}
@@ -583,7 +577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 382, y: -96}
+  m_AnchoredPosition: {x: 382, y: -108}
   m_SizeDelta: {x: 99.3577, y: 85.4688}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102291963
@@ -686,7 +680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a7b82a3e223d4dc41991574d55acca1b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bcb8b5d0d35fbb4a9c1baaea5c872d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -960,9 +954,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &156798025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1565,9 +1556,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &301052406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2170,9 +2158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 1665099922}
 --- !u!61 &414654402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2333,9 +2318,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &444306229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2560,9 +2542,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &497989186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2881,9 +2860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &586173456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2988,7 +2964,7 @@ RectTransform:
   m_GameObject: {fileID: 618057311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.96, y: 0.96, z: 0.96}
   m_Children:
   - {fileID: 1558038112}
   m_Father: {fileID: 1040194068}
@@ -2996,7 +2972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285.7, y: -94.6}
+  m_AnchoredPosition: {x: -273.8, y: -88.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618057313
@@ -3244,9 +3220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &678755888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3718,9 +3691,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 1665099922}
 --- !u!61 &793360710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3881,9 +3851,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &874535730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4062,9 +4029,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &893815712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4539,9 +4503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 1665099922}
 --- !u!225 &951270330
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4618,9 +4579,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &975289166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5588,9 +5546,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &1163942880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6356,9 +6311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &1462153936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6521,7 +6473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.106, y: -1.639}
+  m_AnchoredPosition: {x: 53.804, y: -1.529}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1550589220
@@ -6831,9 +6783,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &1593143287
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7474,9 +7423,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &1880549633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7618,9 +7564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &1944021967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7860,7 +7803,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.12045658, y: -0.0029112697}
+  m_Offset: {x: -0.4396567, y: 0.43207377}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7871,7 +7814,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6777415, y: 1.4063679}
+  m_Size: {x: 0.55751497, y: 0.53634965}
   m_EdgeRadius: 0
 --- !u!212 &2033006290
 SpriteRenderer:
@@ -7932,7 +7875,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033006288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7.14}
+  m_LocalPosition: {x: 0, y: 0, z: -5.15}
   m_LocalScale: {x: 1.4783937, y: 1.4783937, z: 1.4783937}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7940,7 +7883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 58.3, y: -2.97}
+  m_AnchoredPosition: {x: 58.33401, y: -2.167}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2045188901
@@ -8079,9 +8022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &2098490326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8223,9 +8163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &2104108594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8423,9 +8360,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 1665099922}
 --- !u!61 &2138835411
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8556,7 +8490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 258, y: 101}
+  m_AnchoredPosition: {x: 236, y: 92}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140819130
@@ -8581,10 +8515,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'To advance dialogue
 
+
     Left Click > Icon to advance line
 
-    Left Click
-    option to choose it
+    Left
+    Click option to choose it
 
 '
   m_isRightToLeft: 0
@@ -8649,7 +8584,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -52.353893}
+  m_margin: {x: 0, y: 0, z: -13.776802, w: -52.353893}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8727,9 +8662,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
-  itemSlot: {fileID: 1550589216}
-  itemSlot2: {fileID: 2033006288}
-  itemSlot3: {fileID: 0}
 --- !u!61 &2143792557
 BoxCollider2D:
   m_ObjectHideFlags: 0
