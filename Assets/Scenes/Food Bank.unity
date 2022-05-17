@@ -321,6 +321,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &80054494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -462,6 +465,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &92461738
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -954,6 +960,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &156798025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1556,6 +1565,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &301052406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2123,9 +2135,9 @@ GameObject:
   m_Component:
   - component: {fileID: 414654404}
   - component: {fileID: 414654403}
-  - component: {fileID: 414654402}
   - component: {fileID: 414654401}
   - component: {fileID: 414654400}
+  - component: {fileID: 414654402}
   m_Layer: 0
   m_Name: Tomato Soup
   m_TagString: Untagged
@@ -2158,6 +2170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!61 &414654402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2171,7 +2186,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009588383, y: 0.03709796}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2182,7 +2197,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43, y: 0.62499017}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &414654403
 SpriteRenderer:
@@ -2318,6 +2333,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &444306229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2542,6 +2560,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &497989186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2860,6 +2881,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &586173456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3220,6 +3244,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &678755888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3656,9 +3683,9 @@ GameObject:
   m_Component:
   - component: {fileID: 793360712}
   - component: {fileID: 793360711}
-  - component: {fileID: 793360710}
   - component: {fileID: 793360709}
   - component: {fileID: 793360708}
+  - component: {fileID: 793360710}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -3691,6 +3718,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!61 &793360710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3704,7 +3734,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009588383, y: 0.03709796}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3715,7 +3745,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43, y: 0.62499017}
+  m_Size: {x: 0.72, y: 0.72}
   m_EdgeRadius: 0
 --- !u!212 &793360711
 SpriteRenderer:
@@ -3851,6 +3881,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &874535730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4029,6 +4062,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &893815712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4384,9 +4420,9 @@ GameObject:
   m_Component:
   - component: {fileID: 951270328}
   - component: {fileID: 951270327}
-  - component: {fileID: 951270326}
   - component: {fileID: 951270329}
   - component: {fileID: 951270330}
+  - component: {fileID: 951270326}
   m_Layer: 0
   m_Name: Can
   m_TagString: Untagged
@@ -4407,7 +4443,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009588383, y: 0.03709796}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4418,7 +4454,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43, y: 0.62499017}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &951270327
 SpriteRenderer:
@@ -4503,6 +4539,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!225 &951270330
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4579,6 +4618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &975289166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5299,6 +5341,7 @@ GameObject:
   - component: {fileID: 1040194067}
   - component: {fileID: 1040194066}
   - component: {fileID: 1040194065}
+  - component: {fileID: 1040194069}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5395,6 +5438,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!61 &1040194069
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040194064}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1088421445
 GameObject:
   m_ObjectHideFlags: 0
@@ -5546,6 +5615,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &1163942880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6311,6 +6383,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &1462153936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6799,6 +6874,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &1593143287
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7455,6 +7533,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &1880549633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7596,6 +7677,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &1944021967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8070,6 +8154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &2098490326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8211,6 +8298,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &2104108594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8373,9 +8463,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2138835413}
   - component: {fileID: 2138835412}
-  - component: {fileID: 2138835411}
   - component: {fileID: 2138835410}
   - component: {fileID: 2138835409}
+  - component: {fileID: 2138835411}
   m_Layer: 0
   m_Name: Pasta
   m_TagString: Untagged
@@ -8408,6 +8498,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!61 &2138835411
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8421,7 +8514,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009588383, y: 0.03709796}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8432,7 +8525,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43, y: 0.62499017}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &2138835412
 SpriteRenderer:
@@ -8710,6 +8803,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1040194067}
+  itemSlot: {fileID: 0}
+  itemSlot2: {fileID: 0}
+  itemSlot3: {fileID: 0}
 --- !u!61 &2143792557
 BoxCollider2D:
   m_ObjectHideFlags: 0
