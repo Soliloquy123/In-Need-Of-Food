@@ -16,29 +16,29 @@ public class ItemSlotManager : MonoBehaviour
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
-    void Start()
-    {
-        
-    }
+    public static Vector3 lastPos;
 
-    public void OnEndDrag(PointerEventData eventData)
+    public void OnItemDrop(GameObject item)
     {
-        Debug.Log("OnEndDrag");
-        canvasGroup.alpha = 1f;
-        canvasGroup.blocksRaycasts = true;
-
-        if (eventData.pointerDrag != null && (itemSlot1Check = false))
+        if (itemSlot1Check == false)
         {
-            Debug.Log("Getting Stuck");
-            GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
+            item.transform.position = itemSlot.transform.position;
             itemSlot1Check = true;
-            GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
-            GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
-            Debug.Log("OnStuck");
+        } 
+        else if (itemSlot2Check == false)
+        {
+            item.transform.position = itemSlot2.transform.position;
+            itemSlot2Check = true;
+        } 
+        else if (itemSlot3Check == false)
+        {
+            item.transform.position = itemSlot3.transform.position;
+            itemSlot3Check = true;
+        } 
+        else
+        {
+            item.transform.position = lastPos;
         }
-        //else itemSlot1Check = true;
-            //GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
-        
     }
 
 }

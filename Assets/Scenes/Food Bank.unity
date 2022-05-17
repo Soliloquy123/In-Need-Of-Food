@@ -5876,8 +5876,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -178.9, y: -137}
-  m_SizeDelta: {x: 203.1218, y: 86.0994}
+  m_AnchoredPosition: {x: -178.9, y: -142.42784}
+  m_SizeDelta: {x: 203.1218, y: 99.6776}
   m_Pivot: {x: 0.5, y: 0.49999994}
 --- !u!114 &1256916820
 MonoBehaviour:
@@ -6399,6 +6399,7 @@ GameObject:
   - component: {fileID: 1550589219}
   - component: {fileID: 1550589218}
   - component: {fileID: 1550589220}
+  - component: {fileID: 1550589217}
   m_Layer: 0
   m_Name: 'item slot 1 '
   m_TagString: Untagged
@@ -6406,6 +6407,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1550589217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550589216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!212 &1550589218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7004,6 +7020,7 @@ GameObject:
   - component: {fileID: 1665099925}
   - component: {fileID: 1665099924}
   - component: {fileID: 1665099923}
+  - component: {fileID: 1665099926}
   m_Layer: 0
   m_Name: item slot 3
   m_TagString: Untagged
@@ -7107,6 +7124,21 @@ RectTransform:
   m_AnchoredPosition: {x: 62.5528, y: -1.9498}
   m_SizeDelta: {x: 0.6655, y: 0.6481}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1665099926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665099922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!1 &1797777021
 GameObject:
   m_ObjectHideFlags: 0
@@ -7783,6 +7815,7 @@ GameObject:
   - component: {fileID: 2033006291}
   - component: {fileID: 2033006290}
   - component: {fileID: 2033006289}
+  - component: {fileID: 2033006292}
   m_Layer: 0
   m_Name: item slot 2
   m_TagString: Untagged
@@ -7886,6 +7919,21 @@ RectTransform:
   m_AnchoredPosition: {x: 58.33401, y: -2.167}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2033006292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033006288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSlot: {fileID: 1550589216}
+  itemSlot2: {fileID: 2033006288}
+  itemSlot3: {fileID: 1665099922}
 --- !u!1 &2045188901
 GameObject:
   m_ObjectHideFlags: 0

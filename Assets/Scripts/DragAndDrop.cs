@@ -32,6 +32,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         Debug.Log("OnBeginDrag");
          canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
+
+        ItemSlotManager.lastPos = transform.position;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -44,6 +46,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        //IF DRAG ENDS ON A TRAY
+        //GET THE TRAYS ITEM SLOT MANAGER
+        //TELL THE MANAGER THAT THIS ITEM HAS BEEN DROPPED ON THE TRAY
+
+
+
+
         /*Debug.Log("OnEndDrag");
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
@@ -61,6 +70,26 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
             //GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
         */
     }
+
+    /*public void OnEndDrag(PointerEventData eventData)
+    {
+        Debug.Log("OnEndDrag");
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+
+        if (eventData.pointerDrag != null)
+        {
+            Debug.Log("Getting Stuck");
+            GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
+            itemSlot1Check = true;
+            GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
+            GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
+            Debug.Log("OnStuck");
+        }
+        //else itemSlot1Check = true;
+        //GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
+
+    }*/
 
     public void OnPointerDown(PointerEventData eventData)
     {
