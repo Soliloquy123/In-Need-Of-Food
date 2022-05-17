@@ -12,12 +12,19 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public GameObject itemSlot2;
     public GameObject itemSlot3;
 
+    bool itemSlot1Check = false;
+    bool itemSlot2Check = false;
+    bool itemSlot3Check = false;
+
+
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
        canvasGroup = GetComponent<CanvasGroup>();
+       
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -31,8 +38,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         Debug.Log("OnDrag");
         //rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        rectTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        rectTransform.position = new Vector3(rectTransform.position.x, rectTransform.position.y, -8f); ;
+        transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = new Vector3(transform.position.x, transform.position.y, -8f); ;
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -41,14 +48,15 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
-        if (eventData.pointerDrag != null)
+        if (eventData.pointerDrag != null && (itemSlot1Check = false))
         {
             Debug.Log("Getting Stuck");
             GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
             GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
-            GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
+           // GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
             Debug.Log("OnStuck");
         }
+        else 
     }
 
     public void OnPointerDown(PointerEventData eventData)
