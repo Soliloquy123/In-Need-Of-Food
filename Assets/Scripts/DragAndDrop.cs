@@ -8,13 +8,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 {
     [SerializeField] private Canvas canvas;
 
-    public GameObject itemSlot;
+    /*public GameObject itemSlot;
     public GameObject itemSlot2;
     public GameObject itemSlot3;
 
     bool itemSlot1Check = false;
     bool itemSlot2Check = false;
-    bool itemSlot3Check = false;
+    bool itemSlot3Check = false;*/
 
 
     private RectTransform rectTransform;
@@ -38,13 +38,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         Debug.Log("OnDrag");
         //rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector3(transform.position.x, transform.position.y, -8f); ;
+        rectTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        rectTransform.position = new Vector3(rectTransform.position.x, rectTransform.position.y, -8f); ;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
+        /*Debug.Log("OnEndDrag");
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
@@ -52,11 +52,14 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         {
             Debug.Log("Getting Stuck");
             GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
-            GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
+            //itemSlot1Check = true;
+           // GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
            // GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
             Debug.Log("OnStuck");
         }
-        else 
+        //else itemSlot1Check = true;
+            //GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
+        */
     }
 
     public void OnPointerDown(PointerEventData eventData)
