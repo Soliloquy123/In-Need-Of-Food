@@ -4263,7 +4263,7 @@ GameObject:
   - component: {fileID: 942588128}
   - component: {fileID: 942588129}
   m_Layer: 0
-  m_Name: NPC Area
+  m_Name: NPC Area Change Scripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4374,7 +4374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 1109072574}
-  inkJSON: {fileID: 4900000, guid: e2445b31841c46546920d2ff71612bd5, type: 3}
+  inkJSON: {fileID: 4900000, guid: 18547bf5273e9c04aa1f7f3ef79871c0, type: 3}
 --- !u!1 &943516860
 GameObject:
   m_ObjectHideFlags: 0
