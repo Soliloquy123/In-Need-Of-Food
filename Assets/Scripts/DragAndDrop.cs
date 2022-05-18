@@ -16,6 +16,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     bool itemSlot2Check = false;
     bool itemSlot3Check = false;
 
+    public Vector3 startPos;
+
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -25,6 +27,11 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         rectTransform = GetComponent<RectTransform>();
        canvasGroup = GetComponent<CanvasGroup>();
        
+    }
+
+    public void Start()
+    {
+        startPos = transform.position;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -61,12 +68,27 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
         if (eventData.pointerDrag != null)
         {
-            Debug.Log("Getting Stuck");
-            GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
-            itemSlot1Check = true;
-            GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
-            GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
-            Debug.Log("OnStuck");
+            if (ItemSlotManager.itemSlot1Check == false)
+            {
+                Debug.Log("Getting Stuck");
+                GetComponent<RectTransform>().position = itemSlot.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot1Check = true;
+            } 
+            else if (ItemSlotManager.itemSlot2Check == false)
+            {
+                Debug.Log("OnStuck1");
+                GetComponent<RectTransform>().position = itemSlot2.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot2Check = true;
+            }
+            else if (ItemSlotManager.itemSlot3Check == false)
+            {
+                GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot3Check = true;
+                Debug.Log("OnStuck3");
+            } else
+            {
+                GetComponent<RectTransform>().position = ItemSlotManager.lastPos;
+            }
         }
 
     }

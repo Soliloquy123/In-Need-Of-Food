@@ -5,40 +5,23 @@ using UnityEngine.EventSystems;
 
 public class ItemSlotManager : MonoBehaviour
 {
-    public GameObject itemSlot;
-    public GameObject itemSlot2;
-    public GameObject itemSlot3;
-
-    bool itemSlot1Check = false;
-    bool itemSlot2Check = false;
-    bool itemSlot3Check = false;
-
-    private RectTransform rectTransform;
-    private CanvasGroup canvasGroup;
+    public static bool itemSlot1Check = false;
+    public static bool itemSlot2Check = false;
+    public static bool itemSlot3Check = false;
 
     public static Vector3 lastPos;
 
-    public void OnItemDrop(GameObject item)
-    {
-        if (itemSlot1Check == false)
-        {
-            item.transform.position = itemSlot.transform.position;
-            itemSlot1Check = true;
-        } 
-        else if (itemSlot2Check == false)
-        {
-            item.transform.position = itemSlot2.transform.position;
-            itemSlot2Check = true;
-        } 
-        else if (itemSlot3Check == false)
-        {
-            item.transform.position = itemSlot3.transform.position;
-            itemSlot3Check = true;
-        } 
-        else
-        {
-            item.transform.position = lastPos;
-        }
-    }
+    public GameObject[] items;
 
+    public void ReturnItems()
+    {
+        foreach (GameObject item in items)
+        {
+            item.transform.position = item.GetComponent<DragAndDrop>().startPos;
+        }
+
+        //GetComponent<RectTransform>().position = ItemSlotManager.lastPos;
+        Debug.Log("Sent Back");
+    }
 }
+
