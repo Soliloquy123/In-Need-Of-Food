@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
+  - Tomato Soup
+  - Can
+  - Water
+  - Pasta
   layers:
   - Default
   - TransparentFX

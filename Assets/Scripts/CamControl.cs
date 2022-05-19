@@ -116,7 +116,7 @@ public class CamControl : MonoBehaviour
     {
         if (bellPressed1 == true)
         {
-            if (position == 2)
+            if (position == 1)
             {
                 position = 0;
             }
@@ -133,7 +133,7 @@ public class CamControl : MonoBehaviour
         {
             if (position == 0)
             {
-                position = 2;
+                position = 1;
             }
             else
             {
