@@ -216,6 +216,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &29920169
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -836,8 +837,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167366201}
-        m_TargetAssemblyTypeName: ReturnButton, Assembly-CSharp
+      - m_Target: {fileID: 1566394836}
+        m_TargetAssemblyTypeName: ItemSlotManager, Assembly-CSharp
         m_MethodName: ReturnItems
         m_Mode: 1
         m_Arguments:
@@ -1497,6 +1498,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &248319695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1598,6 +1600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items: []
 --- !u!61 &281927959
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2292,6 +2295,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!61 &414654402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2700,6 +2704,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &487787351
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3419,6 +3424,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!61 &793360710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3742,6 +3748,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &863129196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3923,6 +3930,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &912171982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4381,6 +4389,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!225 &951270330
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5258,6 +5267,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &1069479850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6239,6 +6249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items: []
 --- !u!212 &1550589218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6568,6 +6579,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items:
+  - {fileID: 414654399}
+  - {fileID: 2138835408}
+  - {fileID: 793360707}
+  - {fileID: 951270325}
+  - {fileID: 1069479845}
+  - {fileID: 248319690}
+  - {fileID: 1841487413}
+  - {fileID: 863129191}
+  - {fileID: 2010035027}
+  - {fileID: 487787346}
+  - {fileID: 912171977}
+  - {fileID: 29920164}
 --- !u!1 &1572892424
 GameObject:
   m_ObjectHideFlags: 0
@@ -6618,6 +6642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7b002a857a3cb489d66209b9d246ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items: []
 --- !u!61 &1572892427
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7004,6 +7029,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &1841487418
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7582,6 +7608,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!212 &2010035032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7949,6 +7976,7 @@ MonoBehaviour:
   itemSlot: {fileID: 1550589216}
   itemSlot2: {fileID: 1572892424}
   itemSlot3: {fileID: 281927956}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!61 &2138835411
 BoxCollider2D:
   m_ObjectHideFlags: 0
