@@ -10,11 +10,8 @@ public class CamControl : MonoBehaviour
     public GameObject controls;
 
     public GameObject bellInstructions;
-
     public GameObject arrowInstructions;
-
     public GameObject dialogInstructions;
-
     public GameObject foodInstructions;
 
     public GameObject pastaPortions;
@@ -150,6 +147,20 @@ public class CamControl : MonoBehaviour
         // when B is pressed the first npc spawns in the seconnd background
         bellPressed1 = true;
     }
+    /*public void BellSound()
+    {
+        // when B is pressed the first npc spawns in the seconnd background
+        if (!bells)
+        {
+
+            bells = true;
+            NPC1.transform.position = destination.transform.position;
+
+            audioSource.Play();
+
+
+        }
+    }*/
 
 
 }
