@@ -10,8 +10,9 @@ Me: Why?
 Me: Where is She?
 Starving "Father": ... At Home 
 
-Give Person Food?
-    *Yes
+Give Person Food? 
+Go to next screen to decide
+    /**Yes
          How much?
             ** 1 Portion
             Starving "Father": Why?
@@ -29,5 +30,5 @@ Give Person Food?
     She will starve because of ...
     YOU!
     Me: My deepest apologies Sir
-- Me: Please Move Along!
+- Me: Please Move Along!*/
     -> END
