@@ -5632,8 +5632,6 @@ MonoBehaviour:
     Left
     Click option to choose it
 
-    When dialogue goes blank switch to next layer
-    to sort out portions
 
 '
   m_isRightToLeft: 0
