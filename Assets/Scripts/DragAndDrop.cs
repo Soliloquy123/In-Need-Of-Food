@@ -11,10 +11,32 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public GameObject itemSlot;
     public GameObject itemSlot2;
     public GameObject itemSlot3;
+    public GameObject itemsSlot4;
+
+    public GameObject itemsSlot5;
+
+    public GameObject itemsSlot6;
+
+    public GameObject itemsSlot7;
+
+    public GameObject itemsSlot8;
+
+    public GameObject itemsSlot9;
+
+
 
     bool itemSlot1Check = false;
     bool itemSlot2Check = false;
     bool itemSlot3Check = false;
+    bool itemSlot4Check = false;
+    bool itemSlot5Check = false;
+    bool itemSlot6Check = false;
+    bool itemSlot7Check = false;
+    bool itemSlot8Check = false;
+    bool itemSlot9Check = false;
+
+
+
 
     public Vector3 startPos;
 
@@ -25,8 +47,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-       canvasGroup = GetComponent<CanvasGroup>();
-       
+        canvasGroup = GetComponent<CanvasGroup>();
     }
 
     public void Start()
@@ -37,7 +58,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-         canvasGroup.alpha = .6f;
+        canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
 
         ItemSlotManager.lastPos = transform.position;
@@ -85,7 +106,51 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
                 GetComponent<RectTransform>().position = itemSlot3.GetComponent<RectTransform>().position;
                 ItemSlotManager.itemSlot3Check = true;
                 Debug.Log("OnStuck3");
-            } else
+            } 
+            else if (ItemSlotManager.itemSlot4Check == false)
+            {
+                GetComponent<RectTransform>().position = itemsSlot4.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot4Check = true;
+                Debug.Log("OnStuck4");
+            } 
+
+            else if (ItemSlotManager.itemSlot5Check == false)
+            {
+                GetComponent<RectTransform>().position = itemsSlot5.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot5Check = true;
+                Debug.Log("OnStuck5");
+            } 
+
+            else if (ItemSlotManager.itemSlot6Check == false)
+            {
+                GetComponent<RectTransform>().position = itemsSlot6.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot6Check = true;
+                Debug.Log("OnStuck6");
+            } 
+
+            else if (ItemSlotManager.itemSlot7Check == false)
+            {
+                GetComponent<RectTransform>().position = itemsSlot7.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot7Check = true;
+                Debug.Log("OnStuck7");
+            } 
+
+            else if (ItemSlotManager.itemSlot8Check == false)
+            {
+                GetComponent<RectTransform>().position = itemsSlot8.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot8Check = true;
+                Debug.Log("OnStuck8");
+            } 
+
+            else if (ItemSlotManager.itemSlot9Check == false)
+            {
+                GetComponent<RectTransform>().position = itemsSlot9.GetComponent<RectTransform>().position;
+                ItemSlotManager.itemSlot9Check = true;
+                Debug.Log("OnStuck9");
+            } 
+            
+            
+            else
             {
                 GetComponent<RectTransform>().position = ItemSlotManager.lastPos;
             }
