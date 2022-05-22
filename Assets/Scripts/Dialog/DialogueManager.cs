@@ -8,6 +8,9 @@ using UnityEngine.EventSystems;
 public class DialogueManager : MonoBehaviour
 
 {
+    [Header("Params")]
+    [SerializeField] private float typingSpeed = 0.04f;
+
     [Header("Dialogue UI")]
    
     [SerializeField] private GameObject dialoguePanel;
@@ -27,6 +30,10 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
 
     public bool dialogueIsPlaying;
+
+    private bool canContinueToNextLine = false;
+
+    private Coroutine displayLineCoroutine;
 
 
     private static DialogueManager instance;
@@ -87,7 +94,11 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             // set text for the current dialogue line
-            dialogueText.text = currentStory.Continue();
+            if(displayLineCoroutine != null)
+            {
+                StopCoroutine(displayLineCoroutine);
+            }
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
             // display choices, if any, for this dialogue line 
             DisplayChoices();
             //handles the tags
@@ -97,6 +108,22 @@ public class DialogueManager : MonoBehaviour
         {
             ExitDialogueMode();
         }
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        //empty the dialogue text
+        dialogueText.text = "";
+
+        canContinueToNextLine = false;
+
+        // display each letter one at a time
+        foreach (char letter in line.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed); 
+        }
+        canContinueToNextLine = true;
     }
 
     private void HandleTags(List<string> currentTags)
@@ -168,8 +195,11 @@ public class DialogueManager : MonoBehaviour
 
     public void MakeChoice(int choiceIndex)
     {
-        currentStory.ChooseChoiceIndex(choiceIndex);
-        ContinueStory();
+        if (canContinueToNextLine)
+        {
+            currentStory.ChooseChoiceIndex(choiceIndex);
+            ContinueStory();
+        }
     }
 
 
