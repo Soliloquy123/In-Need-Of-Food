@@ -1,34 +1,34 @@
 -> main
 
 === main ===
-Starving Man: Please
+Please #speaker:Starving Man
 Im in need of food 
 I've been starving for three weeks
-Can you give me 2 portioins of food ?
-Me: Why?
- Starving "Father":  My Daughter is also starving 
-Me: Where is She?
-Starving "Father": ... At Home 
+Can you give me 2 portions of food ?
+Why? #speaker:Me
+ My Daughter is also starving #speaker:Starving Father 
+Where is She? #speaker:Me
+ ... At Home  #speaker:Starving Father
 
 Give Person Food?
     *Yes
          How much?
             ** 1 Portion
-            Starving "Father": Why?
+             Why? #speaker:Starving Father
             What about my Daughter!?
-            Me: Im sorry Sir
+             Im sorry Sir #speaker:Me
             We can only give out portions to people who are present
             ** 2 Portions
-            Starving "Father": Thank You so so much
+            Thank You so so much #speaker:Starving Father
             You saved us
-        - - Me: Please wait until I sort out the cans 
+        - - Please wait until I sort out the cans #speaker:Me
         Ok here 
         - - Thank you for your patience    
     *No
-    Starving "Father" Why!? 
+    Why!? #speaker:Starving Father
     My Daughter...
     She will starve because of ...
     YOU!
-    Me: My deepest apologies Sir
-- Me: Please Move Along!
+     My deepest apologies Sir #speaker:Me
+-  Please Move Along! #speaker:Me
     -> END
