@@ -1,7 +1,7 @@
 -> main
 
 === main ===
-Please #speaker:Starving Man
+Please #speaker:Starving Man #portrait:starving_man
 Im in need of food 
 I've been starving for three weeks
 Can you give me 2 portions of food ?
@@ -9,8 +9,9 @@ Why? #speaker:Me
  My Daughter is also starving #speaker:Starving Father 
 Where is She? #speaker:Me
  ... At Home  #speaker:Starving Father
+ 
 
-Give Person Food?
+Should I Give him or maybe "Them" food? #Me (Thinking)
     *Yes
          How much?
             ** 1 Portion

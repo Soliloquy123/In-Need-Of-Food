@@ -22,6 +22,8 @@ public class CamControl : MonoBehaviour
     public GameObject returnButton;
     public GameObject acceptButton;
 
+    public GameObject rightArrow;
+
 
 
 
@@ -66,6 +68,7 @@ public class CamControl : MonoBehaviour
             pastaPortions.SetActive(false);
             returnButton.SetActive(false);
             acceptButton.SetActive(false);
+            rightArrow.SetActive(true);
 
         }
         else if (position == 1)
@@ -85,6 +88,7 @@ public class CamControl : MonoBehaviour
             pastaPortions.SetActive(false);
             returnButton.SetActive(false);
             acceptButton.SetActive(false);
+            rightArrow.SetActive(false);
         }
         else if (position == 2)
         {
@@ -127,7 +131,7 @@ public class CamControl : MonoBehaviour
         }
     }
 
-    public void BackScreen()
+    /*public void BackScreen()
     {
         if (bellPressed1 == true)
         {
@@ -141,7 +145,7 @@ public class CamControl : MonoBehaviour
             }
         }
 
-    }
+    }*/
     public void RingBell()
     {
         // when B is pressed the first npc spawns in the seconnd background

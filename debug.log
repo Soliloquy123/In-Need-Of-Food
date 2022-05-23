@@ -1,0 +1,13 @@
+[0523/183650.575:WARNING:spdy_session.cc(3391)] Received HEADERS for invalid stream 10
+[0523/183651.764:INFO:CONSOLE(1)] "window.feds.utilities.imslib is not available", source: https://www.adobe.com/etc.titan.dexterlibs/dexter/clientlibs/base/head.fp-06dca258c69bb32da363dff0491f1066.js (1)
+[0523/183700.235:INFO:CONSOLE(20)] "🚀 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead", source: https://assets.adobedtm.com/launch-EN919758db9a654a17bac7d184b99c4820.min.js (20)
+[0523/183712.625:INFO:CONSOLE(1)] "Warning: fragment with name CartItems already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names", source: https://commerce.adobe.com/store/_next/static/chunks/7916-70b421e002d3fbc41bf5.js (1)
+[0523/183712.626:INFO:CONSOLE(1)] "Warning: fragment with name CartPrice already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names", source: https://commerce.adobe.com/store/_next/static/chunks/7916-70b421e002d3fbc41bf5.js (1)
+[0523/183712.630:INFO:CONSOLE(1)] "Warning: fragment with name PaymentInstrument already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names", source: https://commerce.adobe.com/store/_next/static/chunks/7916-70b421e002d3fbc41bf5.js (1)
+[0523/183712.631:INFO:CONSOLE(1)] "Workaround: Ignoring React strict-mode errors originating from spectrum v2 components. Components: Accordion, AccordionItem, Button, ButtonGroup, Card, CardBody, Dropdown, Overlay, OverlayTrigger, Portal, Provider, Search, Select, Selector, Slider, SwitchBase. Methods: findDOMNode.", source: https://commerce.adobe.com/store/_next/static/chunks/pages/_app-12b064176391ba313500.js (1)
