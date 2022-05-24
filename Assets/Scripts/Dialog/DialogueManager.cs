@@ -56,6 +56,8 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("Found More Than One Dialogue Manager in the scene");
         }
         instance = this;
+
+        
     }
 
     public static DialogueManager GetInstance()
@@ -166,12 +168,26 @@ public class DialogueManager : MonoBehaviour
 
             }
 
-          //  if (displayNameText.text == "Starving Man")
-           // {
-           //    displayPortrait == starvingMan
-          // }
-           // else if (displayNameText.text == "Edith Sara")
-
+           /* if (displayNameText.text == tagValue(starving_man)
+            {
+               displayPortrait == starvingMan;
+            }
+            /*else if (displayNameText.text == "Edith Sara")
+            {
+               displayPortrait == edithSara;
+            }
+             else if (displayNameText.text == "womanmiddle")
+            {
+               displayPortrait == womanmiddle;
+            }
+            else if (displayNameText.text == "richGuy")
+            {
+               displayPortrait == richGuy;
+            }
+            else if (displayNameText.text == "youngBoy")
+            {
+               displayPortrait == youngBoy;
+            }*/
 
         }
     }
