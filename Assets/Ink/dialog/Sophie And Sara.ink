@@ -1,8 +1,8 @@
 -> main
 
 === main ===
- May I have 2 Portions of Food #speaker:old_lady
- We've been starving for Weeks #speaker:young_girl
+ May I have 2 Portions of Food #speaker:old_lady #portrait:edith_sara
+ We've been starving for Weeks #speaker:young_girl #portrait:edith_sara
 We're in need of Food
  Where is the rest of your family sweetie ? #speaker:me
  Uhhh... #speaker:young_girl

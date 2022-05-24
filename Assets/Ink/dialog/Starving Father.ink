@@ -2,7 +2,7 @@
 
 === main ===
 Please #speaker:Starving Man #portrait:starving_man
-Im in need of food 
+Im in need of food #portrait:starving_man
 We've been starving for three weeks
 Can you give us 2 portions of food ?
 We've? #speaker:Me

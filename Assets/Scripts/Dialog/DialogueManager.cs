@@ -17,7 +17,7 @@ public class DialogueManager : MonoBehaviour
    
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
-    [SerializeField] private GameObject displayPortrait;
+    [SerializeField] private Animator portraitAnimator;
     public GameObject starvingMan;
     public GameObject edithSara;
     public GameObject womanmiddle;
@@ -156,7 +156,7 @@ public class DialogueManager : MonoBehaviour
                     Debug.Log(displayNameText.text);
                     break;
                 case PORTRAIT_TAG:   
-                Debug.Log("portrait=" + tagValue);
+                portraitAnimator.Play(tagValue);
                     //displayPortrait.text = tagValue;
                     break; 
                 case LAYOUT_TAG:    

@@ -9,6 +9,10 @@ public class DialogueTrigger : MonoBehaviour
 
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
+    /*[SerializeField] private TextAsset inkJSONES;
+    [SerializeField] private TextAsset inkJSONRM;
+    [SerializeField] private TextAsset inkJSONYW;
+    [SerializeField] private TextAsset inkJSONYB;*/
 
     bool dialoguePanel = false;
 
