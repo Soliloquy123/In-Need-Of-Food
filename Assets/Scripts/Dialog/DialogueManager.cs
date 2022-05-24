@@ -18,6 +18,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private GameObject displayPortrait;
+    public GameObject starvingMan;
+    public GameObject edithSara;
+    public GameObject womanmiddle;
+    public GameObject richGuy;
+    public GameObject youngBoy;
+
 
 
     [Header("Choices UI")]
@@ -145,6 +151,7 @@ public class DialogueManager : MonoBehaviour
             {
                 case SPEAKER_TAG:
                     displayNameText.text = tagValue;
+                    Debug.Log(displayNameText.text);
                     break;
                 case PORTRAIT_TAG:   
                 Debug.Log("portrait=" + tagValue);
@@ -158,6 +165,14 @@ public class DialogueManager : MonoBehaviour
                     break;
 
             }
+
+            if (displayNameText.text == "Starving Man")
+            {
+               displayPortrait == starvingMan
+            }
+            else if (displayNameText.text == "Edith Sara")
+
+
         }
     }
 
