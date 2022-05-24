@@ -1,14 +1,14 @@
 -> main
 
 === main ===
-Old Lady: May I have 2 Portions of Food
-Young Girl: We've been starving for Weeks 
+ May I have 2 Portions of Food #speaker:old_lady
+ We've been starving for Weeks #speaker:young_girl
 We're in need of Food
-Me: Where is the rest of your family sweetie ?
-Young Girl: Uhhh...
+ Where is the rest of your family sweetie ? #speaker:me
+ Uhhh... #speaker:young_girl
 errrm... 
 They went on holiday about 4 weeks ago
- Old Lady: (Whispering) 
+  (Whispering) #speaker:old_lady
  My son in law ran away with the food we had saved,
  My daughter Sophie and her child Sara were left starving
  Sophie left a couple rations of food she had saved for Sara 
@@ -16,50 +16,50 @@ They went on holiday about 4 weeks ago
  Sophie called me just before she ran to look after Sara 
  I came in time...
 to at least save my grandchild 
-Me: My condoloences Ms?
-GrandMother: Edith
-Sara: I wonder when they'll come back
-Edith: ...
+ My condoloences Ms? #speaker:me
+ Edith#speaker:old_lady
+ I wonder when they'll come back #speaker:sara
+ ... #speaker:edith
 Me:...
 Hopefully Soon sweetie
 
-Give People Food?
+Give Edith and Sara Food?  #speaker:Me (Thinking)
     *Yes
          How much?
             ** 1 Portion
-            Edith: Why?
+             Why? #speaker:edith
             What about my Sara!?
             AFTER EVERYTHING I TOLD YOU
             WE STILL NOT ALLOWED ENOUGH FOOD FOR THE BOTH OF US
             YOU CRUEL, VILE, EVIL MAN
-            Me: Im so so sorry Edith
+             Im so so sorry Edith #speaker:me
             There are still others that need that Food
             Please forgive me
-            Edith: If there is a God, I hope you suffer the punishment
-            Sara: Granny Edith what about You
+            If there is a God, I hope you suffer the punishment #speaker:edith
+             Granny Edith what about You #speaker:sara
             How are you going to eat?
-            Edith: I'll find a way
+             I'll find a way #speaker:edith
             
             ** 2 Portions
-            Edith: Thank You so so much
+             Thank You so so much #speaker:edith
             You saved me and Sara
-            Me: Your very welcome
+             Your very welcome #speaker:me
             Hopefully you can recover and feel healthy for a while
-        - - Me: Please wait until I sort out the protions
+        - -  Please wait until I sort out the portions #speaker:me
         - - Thank you for your patience    
     *No
-      Edith: Why?
+            Why? #speaker:edith
             What about my Sara!?
             AFTER EVERYTHING I TOLD YOU
             WE STILL NOT ALLOWED EVEN ONE PORTION OF FOOD 
             YOU CRUEL, VILE, EVIL MAN
-            Me: Im so so sorry Edith
+             Im so so sorry Edith #speaker:me
             There are still others that need that Food
             Please forgive me
-            Edith: If there is a God, I hope you suffer the punishment he has in store
+             If there is a God, I hope you suffer the punishment he has in store #speaker:edith
             Come Sara I'll find some food for you 
             Even if its the last thing I do
-            Sara: Please look after yourself Granny Edith
+             Please look after yourself Granny Edith #speaker:sara
     
-- Me: Please Move Along!
+-  Please Move Along!#speaker:me
     -> END
