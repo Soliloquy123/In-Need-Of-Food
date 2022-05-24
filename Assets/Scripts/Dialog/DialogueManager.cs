@@ -166,11 +166,11 @@ public class DialogueManager : MonoBehaviour
 
             }
 
-            if (displayNameText.text == "Starving Man")
-            {
-               displayPortrait == starvingMan
-            }
-            else if (displayNameText.text == "Edith Sara")
+          //  if (displayNameText.text == "Starving Man")
+           // {
+           //    displayPortrait == starvingMan
+          // }
+           // else if (displayNameText.text == "Edith Sara")
 
 
         }
