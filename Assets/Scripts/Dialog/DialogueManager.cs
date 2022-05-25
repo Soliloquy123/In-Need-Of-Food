@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour
 
 
    
-    private Story currentStory;
+    public Story currentStory;
 
     public bool dialogueIsPlaying;
 
@@ -135,16 +135,19 @@ public class DialogueManager : MonoBehaviour
         canContinueToNextLine = true;
     }
 
-    private void HandleTags(List<string> currentTags)
+    public void HandleTags(List<string> currentTags)
     {
         // Loop throught each tag and handl it accordingly
         foreach (string tag in currentTags)
         {
             //parse the tag
             string[] splitTag = tag.Split(':');
+
+            if(splitTag == null)
             {
                 Debug.LogError("Tag could not be appropiately parsed: " + tag);
             }
+
             string tagKey = splitTag[0].Trim();
             string tagValue = splitTag[1].Trim();
 
