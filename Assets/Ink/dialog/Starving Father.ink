@@ -21,10 +21,10 @@ Where is She? #speaker:Me
  Please could you give us food?
  
 
-Should I Give him or maybe "Them" food? #speaker:Me (Thinking)
-    *Yes
-         How much?
-            ** 1 Portion
+Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starving_man
+    *Yes #portrait:starving_man
+         How much? #portrait:starving_man
+            ** 1 Portion #portrait:starving_man
              Why? #speaker:Starving Father
             What about my Daughter!?
             She'll die
@@ -35,17 +35,17 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking)
             She's the only person keeping me going 
             I'm Sorry sir but you should've known this was going to happen #speaker:Me
             So, 
-            ** 2 Portions
-            Thank You so so much #speaker:Starving Father
+            ** 2 Portions #portrait:starving_man
+            Thank You so so much #speaker:Starving Father #portrait:starving_man
             You saved us
             Your very welcome sir #speaker:Me
             I hope you and your daughter will be safe
             (I know I went against my instructions but the daughter or father may have died without that food)
-        - - Please wait until I sort out the portions #speaker:Me
-        Ok here 
-        - - Thank you for your patience    
-    *No
-    Why!? #speaker:Starving Father
+        - - Please wait until I sort out the portions #speaker:Me #portrait:starving_man
+        Ok here  #portrait:starving_man
+        - - Thank you for your patience     #portrait:starving_man
+    *No #portrait:starving_man #portrait:starving_man
+    Why!? #speaker:Starving Father #portrait:starving_man
     My Daughter...
     She will starve because of ...
     YOU!
@@ -57,9 +57,9 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking)
     but you should have known
     that we dont give out food with a guarantee #speaker:Me
     But... But #speaker:Starving Father
-    I'm sorry sir but you need to go now #speaker:Me
+    I'm sorry sir but you need to go now #speaker:Me #portrait:starving_man
     
--  Please Move Along! #speaker:Me
+-  Please Move Along! #speaker:Me #portrait:starving_man
 
  May I have 2 Portions of Food #speaker:old_lady #portrait:edith_sara
  We've been starving for Weeks #speaker:young_girl #portrait:edith_sara
@@ -81,10 +81,10 @@ to at least save my grandchild
  I wonder when they'll come back #speaker:sara
  ... #speaker:edith
 Me:...
-Hopefully Soon sweetie
+Hopefully Soon sweetie #portrait:edith_sara
 
 Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
-    *Yes  #portrait:edith_sara
+    *Yes  #portrait:edith_sara 
          How much?  #portrait:edith_sara
             ** 1 Portion  #portrait:edith_sara
              Why? #speaker:edith  #portrait:edith_sara
@@ -101,7 +101,7 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
              I'll find a way #speaker:edith
             
             ** 2 Portions  #portrait:edith_sara
-             Thank You so so much #speaker:edith
+             Thank You so so much #speaker:edith #portrait:edith_sara
             You saved me and Sara
              Your very welcome #speaker:me
             Hopefully you can recover and feel healthy for a while  #portrait:edith_sara
