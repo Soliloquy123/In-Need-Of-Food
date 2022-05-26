@@ -13,6 +13,13 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
    
     [SerializeField] private TextMeshProUGUI dialogueText;
+<<<<<<< Updated upstream
+=======
+    [SerializeField] private TextMeshProUGUI displayNameText;
+    [SerializeField] private Animator portraitAnimator;
+  
+
+>>>>>>> Stashed changes
 
 
     [Header("Choices UI")]
