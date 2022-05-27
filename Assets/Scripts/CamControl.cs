@@ -14,15 +14,9 @@ public class CamControl : MonoBehaviour
     public GameObject dialogInstructions;
     public GameObject foodInstructions;
 
-    public GameObject pastaPortions;
-    public GameObject tomatoSoupPortions;
-    public GameObject tinPortions;
-    public GameObject waterQuenches;
-
-    public GameObject returnButton;
-    public GameObject acceptButton;
-
     public GameObject rightArrow;
+    public GameObject continueArrow;
+    public GameObject continueArrowinst;
 
 
 
@@ -62,15 +56,13 @@ public class CamControl : MonoBehaviour
             bellInstructions.SetActive(true);
             dialogInstructions.SetActive(false);
             foodInstructions.SetActive(false);
-            waterQuenches.SetActive(false);
-            tinPortions.SetActive(false);
-            tomatoSoupPortions.SetActive(false);
-            pastaPortions.SetActive(false);
-            returnButton.SetActive(false);
-            acceptButton.SetActive(false);
+          
             rightArrow.SetActive(true);
+            continueArrow.SetActive(false);
+            continueArrowinst.SetActive(false);
 
         }
+
         else if (position == 1)
         {
             transform.position = new Vector3(31.52f, 0f, -10f);
@@ -82,13 +74,10 @@ public class CamControl : MonoBehaviour
             bellInstructions.SetActive(false);
             dialogInstructions.SetActive(true);
             foodInstructions.SetActive(true);
-            waterQuenches.SetActive(false);
-            tinPortions.SetActive(false);
-            tomatoSoupPortions.SetActive(false);
-            pastaPortions.SetActive(false);
-            returnButton.SetActive(false);
-            acceptButton.SetActive(false);
+         
             rightArrow.SetActive(false);
+            continueArrow.SetActive(true);
+            continueArrowinst.SetActive(true);
         }
         else if (position == 2)
         {
@@ -101,12 +90,11 @@ public class CamControl : MonoBehaviour
             bellInstructions.SetActive(false);
             dialogInstructions.SetActive(false);
             foodInstructions.SetActive(false);
-            waterQuenches.SetActive(true);
-            tinPortions.SetActive(true);
-            tomatoSoupPortions.SetActive(true);
-            pastaPortions.SetActive(true);
-            returnButton.SetActive(true);
-            acceptButton.SetActive(true);
+          
+            continueArrow.SetActive(true);
+            continueArrowinst.SetActive(true);
+            continueArrow.SetActive(false);
+            continueArrowinst.SetActive(true);
         }
 
         if(Input.GetKeyDown(KeyCode.B))
@@ -131,40 +119,13 @@ public class CamControl : MonoBehaviour
         }
     }
 
-    /*public void BackScreen()
-    {
-        if (bellPressed1 == true)
-        {
-            if (position == 0)
-            {
-                position = 1;
-            }
-            else
-            {
-                position--;
-            }
-        }
-
-    }*/
+  
     public void RingBell()
     {
         // when B is pressed the first npc spawns in the seconnd background
         bellPressed1 = true;
     }
-    /*public void BellSound()
-    {
-        // when B is pressed the first npc spawns in the seconnd background
-        if (!bells)
-        {
-
-            bells = true;
-            NPC1.transform.position = destination.transform.position;
-
-            audioSource.Play();
-
-
-        }
-    }*/
+  
 
 
 }

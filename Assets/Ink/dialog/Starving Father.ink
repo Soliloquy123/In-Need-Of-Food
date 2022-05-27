@@ -80,7 +80,7 @@ to at least save my grandchild
  Edith#speaker:old lady
  I wonder when they'll come back #speaker:sara
  ... #speaker:edith
-Me:...
+ ...#speaker:me
 Hopefully Soon sweetie #portrait:edith_sara
 
 Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
@@ -111,7 +111,7 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
             Why? #speaker:edith  #portrait:edith_sara
             What about my Sara!?
             AFTER EVERYTHING I TOLD YOU
-            WE STILL NOT ALLOWED EVEN ONE PORTION OF FOOD 
+            WE'RE STILL NOT ALLOWED EVEN ONE PORTION OF FOOD 
             YOU CRUEL, VILE, EVIL MAN
              Im so so sorry Edith #speaker:me
             There are still others that need that Food
@@ -120,6 +120,69 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
             Come Sara I'll find some food for you 
             Even if its the last thing I do
              Please look after yourself Granny Edith #speaker:sara
+             ** Sneak food out for Edith and/or sara?
+             ***yes
+             **** For Sara
+             Sara! Edith! wait up #speaker:me
+             What!!! What do you want now from#speaker:Edith
+             You've already doomed us
+             what more are you gonna do!
+             I'm sorry, I'm so sorry #speaker:me
+             here take this food sara 
+             I know this isn't much but at least it'll help sara feel better
+             (sara's eyes light up)
+             Thank you, mister ! #speaker:Sara
+             (Scoffs) #speaker:Edith
+             Your only doing this too make your conscience feel better
+             We may not want your pity, but at least Sara won't die
+             so thank you
+             your welcome, for what's it's worth#speaker:me
+             
+            
+             
+             
+             ****For Edith
+              Edith! wait up #speaker:me
+               What!!! What do you want now from#speaker:Edith
+             You've already doomed us
+             what more are you gonna do!
+             I'm sorry, I'm so sorry #speaker:me
+             here take this food
+             For me? #speaker:Edith
+             why?
+             Sara needs it more than me
+             how out of touch are you ?
+             I'm sorry#speaker:me
+             sorry?#speaker:Edith
+             sorry, doesn't even begin to cover the trouble you are causing us
+             But at least i can give this food to Sara
+             so thank you
+             your welcome, for what's it's worth#speaker:me
+                         
+             
+             
+             
+              
+             
+             
+             **** for both of them
+             Edith! wait up #speaker:me
+               What!!! What do you want now from#speaker:Edith
+             You've already doomed us
+             what more are you gonna do!
+             I'm sorry, I'm so sorry #speaker:me
+             Really you changed your mind #speaker:Edith
+             i know your probably doing this to help your conscience feel better
+             and no to help us
+            but at least we can eat now 
+            so thank you
+             your welcome, for what's it's worth#speaker:me
+            
+             
+             
+             ***No 
+             (I've already made my decision)#speaker:ME (thinking) 
+             
     
 -  Please Move Along!#speaker:me  #portrait:edith_sara
 
