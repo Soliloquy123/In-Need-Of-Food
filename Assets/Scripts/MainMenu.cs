@@ -20,7 +20,7 @@ Application.Quit();
 
 public void CreditsLoad()
 {
-SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
 }
 
 

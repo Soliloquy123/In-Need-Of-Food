@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Food Bank.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: d1fd80aa2dd6534438e48730450ccdd6
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: a9e23118a78a75445a3c8c6c76aeb628
   m_configObjects:

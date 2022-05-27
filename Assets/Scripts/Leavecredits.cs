@@ -14,6 +14,6 @@ public class Leavecredits : MonoBehaviour
     // Update is called once per frame
     public void LeaveGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5 );
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6 );
     }
 }
