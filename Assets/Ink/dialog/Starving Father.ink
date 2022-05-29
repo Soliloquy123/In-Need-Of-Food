@@ -10,14 +10,16 @@ We've? #speaker:Me
 Where is She? #speaker:Me
  ... At Home  #speaker:Starving 'Father'
  Why isn't she here  #speaker:Me
- You should know we can only give out food to people that are  here 
+ You should know we can only give out food to people that are here 
  But he's sick #speaker:Starving 'Father'
  He? #speaker:Me
  I thought you had a daughter 
+ (the starving 'father' eyes widen open as if in shocked) #speaker:Me (Thinking)
  I meant she #speaker:Starving 'Father'
  It's been a long three weeks
  We've starved for so so long
  We've been suffering
+ (The 'starving father' stomach starts rumbles loudly)#speaker:Me (Thinking)
  Please could you give us food?
  
 
@@ -29,9 +31,9 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
             What about my Daughter!?
             She'll die
              Im sorry Sir #speaker:Me
-            We can only give out portions to people who are present#speaker:Starving Father
-            but... but 
-            What am I going do
+            We can only give out portions to people who are present#speaker:Me 
+            but... but #speaker:Starving Father
+            What am I going do 
             She's the only person keeping me going 
             I'm Sorry sir but you should've known this was going to happen #speaker:Me
             So, 
@@ -40,11 +42,11 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
             You saved us
             Your very welcome sir #speaker:Me
             I hope you and your daughter will be safe
-            (I know I went against my instructions but the daughter or father may have died without that food)
+            (I know I went against my instructions but the daughter or father may have died without that food)#speaker:Me (Thinking)
         - - Please wait until I sort out the portions #speaker:Me #portrait:starving_man
         Ok here  #portrait:starving_man
         - - Thank you for your patience     #portrait:starving_man
-    *No #portrait:starving_man #portrait:starving_man
+    *No #portrait:starving_man 
     Why!? #speaker:Starving Father #portrait:starving_man
     My Daughter...
     She will starve because of ...
@@ -53,7 +55,7 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
     But I have to save food for other people
     They may need it more than you
     But we need that food, we will die without it #speaker:Starving Father
-    Im sorry sir 
+    Im sorry sir #speaker:Meb
     but you should have known
     that we dont give out food with a guarantee #speaker:Me
     But... But #speaker:Starving Father
@@ -62,26 +64,29 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
 -  Please Move Along! #speaker:Me #portrait:starving_man
 
  May I have 2 Portions of Food #speaker:old lady #portrait:edith_sara
+ (the young girl tip toes above the table to speak louder) #speaker:Me (Thinking)
  We've been starving for Weeks #speaker:young girl #portrait:edith_sara
 We're in need of Food
  Where is the rest of your family sweetie ? #speaker:me
  Uhhh... #speaker:young girl
 errrm... 
 They went on holiday about 4 weeks ago
-  (Whispering) #speaker:old lady
- My son in law ran away with the food we had saved,
+  (the old lady slightly leans over the top of the table to whisper in my ear) #speaker:Me (Thinking)
+  ( It seems she is trying to hide what she is about to say from the young girl)
+ My son in law ran away with the food we had saved,#speaker:Old Lady (Whispering)
  My daughter Sophie and her child Sara were left starving
- Sophie left a couple rations of food she had saved for Sara 
- before running away so that Sara didnt have to see her suffer
+ Sophie had saved a couple portions of food for Sara
+ She left the food for sara, before running away so that Sara didnt have to see her suffer
  Sophie called me just before she ran to look after Sara 
  I came in time...
 to at least save my grandchild 
  My condoloences Ms? #speaker:me
  Edith#speaker:old lady
+
  I wonder when they'll come back #speaker:sara
  ... #speaker:edith
  ...#speaker:me
-Hopefully Soon sweetie #portrait:edith_sara
+Hopefully Soon sweetie #portrait:edith_sara #speaker:Me 
 
 Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
     *Yes  #portrait:edith_sara 
@@ -89,6 +94,7 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
             ** 1 Portion  #portrait:edith_sara
              Why? #speaker:edith  #portrait:edith_sara
             What about my Sara!?
+            (edith begins to raise her voice)
             AFTER EVERYTHING I TOLD YOU
             WE STILL NOT ALLOWED ENOUGH FOOD FOR THE BOTH OF US
             YOU CRUEL, VILE, EVIL MAN
