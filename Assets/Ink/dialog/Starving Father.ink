@@ -44,6 +44,8 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
             I hope you and your daughter will be safe
             (I know I went against my instructions but the daughter or father may have died without that food)#speaker:Me (Thinking)
         - - Please wait until I sort out the portions #speaker:Me #portrait:starving_man
+        (I go to the storage room to collect the food from the crates) #speaker:me (thinking)
+        
         Ok here  #portrait:starving_man
         - - Thank you for your patience     #portrait:starving_man
     *No #portrait:starving_man 
@@ -112,17 +114,20 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
              Your very welcome #speaker:me
             Hopefully you can recover and feel healthy for a while  #portrait:edith_sara
         - -  Please wait until I sort out the portions #speaker:me  #portrait:edith_sara
+        (I go to the storage room to collect the food from the crates)  #speaker:Me (Thinking)
+        - - Ok Here
         - - Thank you for your patience      #portrait:edith_sara
     *No  #portrait:edith_sara
             Why? #speaker:edith  #portrait:edith_sara
             What about my Sara!?
+            (edith begins to raise her voice) #speaker: Me (thinking)
             AFTER EVERYTHING I TOLD YOU
             WE'RE STILL NOT ALLOWED EVEN ONE PORTION OF FOOD 
             YOU CRUEL, VILE, EVIL MAN
              Im so so sorry Edith #speaker:me
             There are still others that need that Food
             Please forgive me
-             If there is a God, I hope you suffer the punishment he has in store #speaker:edith
+             If there is a God, I hope you suffer the punishment he has in store for you #speaker:edith
             Come Sara I'll find some food for you 
             Even if its the last thing I do
              Please look after yourself Granny Edith #speaker:sara
@@ -130,11 +135,11 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
              ***yes
              **** For Sara
              Sara! Edith! wait up #speaker:me
-             What!!! What do you want now from#speaker:Edith
+             What!!! What do you want now from us #speaker:Edith
              You've already doomed us
              what more are you gonna do!
-             I'm sorry, I'm so sorry #speaker:me
-             here take this food sara 
+             I'm sorry, I'm so sorry i've made a mistake #speaker:me
+             here take this food for sara 
              I know this isn't much but at least it'll help sara feel better
              (sara's eyes light up)
              Thank you, mister ! #speaker:Sara
@@ -145,11 +150,9 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
              your welcome, for what's it's worth#speaker:me
              
             
-             
-             
-             ****For Edith
+              ****For Edith
               Edith! wait up #speaker:me
-               What!!! What do you want now from#speaker:Edith
+               What!!! What do you want now from us #speaker:Edith
              You've already doomed us
              what more are you gonna do!
              I'm sorry, I'm so sorry #speaker:me
@@ -164,29 +167,25 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
              But at least i can give this food to Sara
              so thank you
              your welcome, for what's it's worth#speaker:me
+             (scoffs) #Speaker:Edith
                          
              
-             
-             
-              
-             
-             
-             **** for both of them
+              **** for both of them
+              (I run to the back to get 2 portions of food) #Speaker: Me (Thinking)
              Edith! wait up #speaker:me
-               What!!! What do you want now from#speaker:Edith
+               What!!! What do you want now from us #speaker:Edith
              You've already doomed us
              what more are you gonna do!
              I'm sorry, I'm so sorry #speaker:me
+             Here take this food, I've made a mistake so here
              Really you changed your mind #speaker:Edith
              i know your probably doing this to help your conscience feel better
-             and no to help us
+             and not to help us
             but at least we can eat now 
             so thank you
-             your welcome, for what's it's worth#speaker:me
+            your welcome, for what's it's worth #speaker:me
             
-             
-             
-             ***No 
+              ***No 
              (I've already made my decision)#speaker:ME (thinking) 
              
     
@@ -197,7 +196,7 @@ I am in need of food #portrait:rich_guy
 May i get 2 Portions
 Why? #speaker:me
 Because i have requested that amount#speaker:posh man
-You do not need my reasoning
+You do not need my reasons 
 Well no but it'll help me make an informed decision#speaker:me
 Maybe these notes will help your decision #speaker: Wealthy Man
 (reaching into breast pocket)
@@ -208,21 +207,20 @@ Should I accept the money? #speaker:Me (Thinking) #portrait:rich_guy
     *Yes #portrait:rich_guy
          How much food should i give? #portrait:rich_guy
             ** 1 Portion #portrait:rich_guy
-            (Acquiescingly takes the money) #speaker:me
+            (I Acquiescingly takes the money) #speaker:Me (Thinking)
             Thank you for this food, 
             today will be another day that i will be full
-            Your (not) welcome Sir #spaker:me
-            i hope this becomes a regular thing#speaker:wealthy man
-            you will be rich 
-            and 
-            I will be full
+            Your (not) welcome Sir #speaker:me
+            i hope this becomes a regular thing #speaker:wealthy man
+            you will be rich and I will be full #speaker:Cocky man
             Fair trade is it not?
             Good day to you Sir
+            (Scoffs) (I cant believe i just accepted a bribe) #speaker:Me (Thinking)
             
          
             ** 2 Portions #portrait:rich_guy
-            (quickly takes the money) #speaker:me #portrait:rich_guy
-            Ha ha HA HA 
+            (I quickly take the money) #speaker:Me (Thinking)  #portrait:rich_guy
+            Ha ha HA HA #speaker:Cocky man
             Thank you very much for the food
             this is more than enough 
             I am going to eat well tonight and tommorow
@@ -230,6 +228,8 @@ Should I accept the money? #speaker:Me (Thinking) #portrait:rich_guy
             I hop we can continue this more
             ha ha ha ha
             goodbye and have a great day
+            (Scoffs) (I can't believe i just accepted a bribe let alone give him more food then he needs) #speaker:Me (Thinking)
+            (Maybe I should've asked for money) #speaker:Me (Thinking)
             
             
                 
@@ -242,20 +242,20 @@ Should I accept the money? #speaker:Me (Thinking) #portrait:rich_guy
     Huh? ha ha ha ha#speaker:scum
     you think your all high and mighty
     we do not live in a world where the righteous win
-    you will regret not taking th money
+    you will regret not taking the money
     just see how far you will get
     
 -  Please Move Along! #speaker:Me #portrait:rich_guy
 
 Hi there young boy #speaker:Me #portrait:timmy
-whats your name
+what's your name
 ... #speaker:young boy
 ...
 ...
 Its okay you can tell me #speaker:Me
 I'm Timothy #speaker:Young boy
 My friends call me timmy #speaker:Timothy
-Can i be your friend #speaker:Me
+Can i be your friend ? #speaker:Me
 (timmy nods his head) #speaker:timmy
 timmy, where are your parents? #speaker:Me
 ... #speaker:timmy
@@ -264,13 +264,13 @@ timmy, where are your parents? #speaker:Me
 i dont have any 
 oh... #speaker:Me
 my bad, please forgive me
-can i have my food now #speaker:timmy
-im really hungry 
-can you give me 2 portions of food
+can i have my food now ? #speaker:timmy
+i'm really hungry 
+can you give me 2 portions of food ?
 
 Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
     *Yes #portrait:timmy #speaker:Me
-         How much food should i give? #portrait:timmy #speaker:Me
+         How much food should i give ? #portrait:timmy #speaker:Me
             ** 1 Portion #portrait:timmy #speaker:Me
             I'm so sorry timmy #speaker:Me
             i'm not allowed to give 2 portions to one person 
