@@ -19,7 +19,7 @@ Where is She? #speaker:Me
  It's been a long three weeks
  We've starved for so so long
  We've been suffering
- (The 'starving father' stomach starts rumbles loudly)#speaker:Me (Thinking)
+ (The 'starving father' stomach starts to rumble loudly)#speaker:Me (Thinking)
  Please could you give us food?
  
 
@@ -73,8 +73,10 @@ We're in need of Food
  Uhhh... #speaker:young girl
 errrm... 
 They went on holiday about 4 weeks ago
-  (the old lady slightly leans over the top of the table to whisper in my ear) #speaker:Me (Thinking)
-  ( It seems she is trying to hide what she is about to say from the young girl)
+  (the old lady slightly leans over the top of the table)  #speaker:Me (Thinking)
+  (to whisper in my ear) #speaker:Me (Thinking)
+  ( It seems she is trying to hide what she is about to say)  #speaker:Me (Thinking)
+  (from the young girl) #speaker:Me (Thinking)
  My son in law ran away with the food we had saved,#speaker:Old Lady (Whispering)
  My daughter Sophie and her child Sara were left starving
  Sophie had saved a couple portions of food for Sara
