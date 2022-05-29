@@ -57,7 +57,7 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
     But I have to save food for other people
     They may need it more than you
     But we need that food, we will die without it #speaker:Starving Father
-    Im sorry sir #speaker:Meb
+    Im sorry sir #speaker:Me
     but you should have known
     that we dont give out food with a guarantee #speaker:Me
     But... But #speaker:Starving Father
@@ -142,7 +142,7 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
              here take this food for sara 
              I know this isn't much but at least it'll help sara feel better
              (sara's eyes light up)
-             Thank you, mister ! #speaker:Sara
+             Thank you ! #speaker:Sara
              (Scoffs) #speaker:Edith
              Your only doing this too make your conscience feel better
              We may not want your pity, but at least Sara won't die
@@ -270,27 +270,29 @@ can you give me 2 portions of food ?
 
 Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
     *Yes #portrait:timmy #speaker:Me
-         How much food should i give ? #portrait:timmy #speaker:Me
-            ** 1 Portion #portrait:timmy #speaker:Me
+         How much food should i give ? #portrait:timmy #speaker:Me (Thinking)
+            ** 1 Portion #portrait:timmy #speaker:Me (Thinking)
             I'm so sorry timmy #speaker:Me
             i'm not allowed to give 2 portions to one person 
             trust me i wish i could
             but if i did less people would be able to eat
             please forgive me
-            I know im not allowed that food #speaker:timmy
+            I know i'm not allowed that food #speaker:timmy
             but it's just so hard living like this
             I know timmy #speaker:Me
             but this is the world we live in now
             i know you can push through it just believe in yourself
             and do whats right
-            Thank you sir #speaker:timmy
+            ...
+            
+            Thank you #speaker:timmy
             do you have a name?
-            Yeah#speaker:Me
+            Yeah #speaker:Me
             can you tell me? #speaker:timmy
-            (i shouldn't tell him my name #speaker:Me thinking)
-            my boss said not to get on an intimate level
-            with people that need the foodbank 
-            as it might help sway my decision)
+            (i shouldn't tell him my name) #speaker:Me thinking
+            (my boss said not to get on an intimate level)
+            (with people that need the foodbank)
+            (as it might help sway my decision)
              Tell timmy your name?
                  *** Yes #portrait:timmy
                     (Whispering)#speaker:Me
@@ -308,7 +310,25 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
                     thanks for understanding#speaker:Me
                     i got to get going #speaker:timmy
                     alright, timmy see you again soon #speaker:Me
-                     se ya#speaker:timmy
+                     see ya #speaker:timmy
+                     
+                *** tell him a fake name     
+                    My name's Alex #speaker: "Alex" 
+                    ha ha ha #speaker:Timmy
+                    your lying, right ?
+                    What gave it away ? #speaker:Me 
+                    I don't know #speaker:Timmy 
+                    it just didn't sound right
+                    Your a smart kid, timmy #speaker:Me 
+                    Thanks "Alex" #speaker:Timmy
+                    ha ha ha #speaker:Me
+                    alright i got to get going #speaker:Timmy 
+                    goodbye
+                    goodbye #speaker:Me 
+                    
+                    
+                    
+                    
             
             ** 2 Portions #portrait:timmy
             (timmy's eyes light up)#speaker:timmy
@@ -320,7 +340,7 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
             You don't have to say anything, timmy #speaker:Me
             this is the least i can do
             I hope i can see you again 
-            mister?
+            Err Whats your name ?
                 (i shouldn't tell him my name #speaker:Me thinking)
             my boss said not to get on an intimate level
             with people that need the foodbank 
@@ -350,7 +370,7 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
     *No #portrait:timmy
     wait, Why #speaker:timmy
     what'd i do wrong
-    oh no what am i going to eatwhat am i going to do
+    oh no what am i going to eat what am i going to do
     oh no oh no oh no oh no
     please im begging you give me some food 
     Im so sorry timmy #speaker:Me
@@ -358,7 +378,7 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
     We didn't have any more stock to give out
     What do you mean you didn't #speaker:timmy
     you would have told me from the start if you were empty
-    why woulld you hear me out
+    why would you hear me out ?
     ...#speaker:Me
     ...
     ...
