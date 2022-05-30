@@ -65,7 +65,7 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
     
 -  Please Move Along! #speaker:Me #portrait:starving_man
 (An old woman with young child walk) #speaker:Me (Thinking) #portrait:edith_sara
-(on their way in the old lady looks back at he man before them)
+(on their way in the old lady looks back at the man before them)
 (She is trying to get better look but doesn't get one)
 (she and the child wallk up to the table in front of me)
 (the old lady looks as she has something on her mind)
@@ -138,7 +138,7 @@ Give Edith and Sara Food?  #speaker:Me (Thinking)  #portrait:edith_sara
             Come Sara I'll find some food for you 
             Even if its the last thing I do
              Please look after yourself Granny Edith #speaker:sara
-             ** Sneak food out for Edith and/or sara?
+              Sneak food out for Edith and/or sara?
              ***yes
              **** For Sara
              Sara! Edith! wait up #speaker:me
@@ -273,7 +273,7 @@ so your probably wondering why i look so surprised #portrait:mx
     Well yeah of course i do it's a food bank #speaker:Me (confused)
     yeah, and you have all these people out here "waiting" for food #speaker:person
     Well yeah, we are in a food crisis right now #speaker:Me (confused)
-    Think about it #speaker: A idea proposing person
+    Think about it #speaker: An idea proposing person
     If you just start selling the food
     like how a supermarket used to work back in the days
     and maybe bump the prices down a notch 
@@ -302,6 +302,63 @@ so your probably wondering why i look so surprised #portrait:mx
     Alright, alright i see your point #speaker:Me 
     So how about it, ready to "reform" this "food Bank together
     
+        Should accept their proposal ? #portrait:mx
+    
+    ** yes #portrait:mx
+    Ok, ok i see how your idea may work#portrait:mx #speaker:Me
+    having a source of income like this will make us both wealthy #speaker: business partner
+    we'll never have to starve again unlike these poor souls down here
+    Yeah... #speaker:me
+    so what your name, partner 
+    I'm Alex #speaker:Alex
+    how about you, what's yours
+    (i tell alex my name) #speaker:me
+    Cool name, i can't wait to do buisness with you #speaker:Alex
+    Bye 
+    bye #speaker:me
+    
+    
+    
+    
+    ** NO #portrait:mx
+    who do you think i am ? #speaker:me (angry)
+    you really think i would aboandon my job and these people
+    for some cash
+    hmph only scums like you would take advantage of these poor people 
+    the world may have gone to shit but at least
+    i can help alleviate the pain these people are going through
+    unlike you scum who want to watch the world burn
+    for such a petty, materialistic reason
+    Money
+    you really think your any better than me #speaker:scumbag
+    just watch, everything you work so hard for
+    all the work you've put in for this sorry excuse of a food bank
+    will be for nothing
+    this is the world we live in now 
+    at least i'm trying to save myself 
+    hmph #speaker:me
+    whatever you say #speaker:me
+    
+    
+    
+    ** lie #portrait:mx
+    I'll think about it    #speaker:me  #portrait:mx
+    you'll think about it !? #speaker: Annoyed person
+    what more is there to think about ?
+    do you want money or not ?
+    i said i'll think about #speaker:me
+    you know how hard a decision like this is to make
+    i could literally send hundreds of people to their death
+    so just let me think about It
+    hmm? ok i get it, you have a conscience #speaker:annoyed person
+    but if you take too long 
+    i'll just ask some other food bank 
+    surely there's another one in this godforsaken city
+    goodbye
+    goodbye #speaker:me
+    
+    
+    
          
     *No, not really #portrait:mx
     hmm? well i'll tell you anyway #speaker: Person #portrait:mx
@@ -313,7 +370,7 @@ so your probably wondering why i look so surprised #portrait:mx
     Well yeah of course i do it's a food bank #speaker:Me (confused)
     yeah, and you have all these people out here "waiting" for food #speaker:person
     Well yeah, we are in a food crisis right now #speaker:Me (confused)
-    just Think about it for a sec #speaker: A idea proposing person
+    just Think about it for a sec #speaker: An idea proposing person
     If you just start selling the food
     like how a supermarket used to work back in the days
     and maybe bump the prices down a notch 
@@ -345,13 +402,52 @@ so your probably wondering why i look so surprised #portrait:mx
     Should accept their proposal ? #portrait:mx
     
     ** yes #portrait:mx
-    YEs i will #portrait:mx
+     Ok, ok i see how your idea may work#portrait:mx #speaker:Me
+    having a source of income like this will make us both wealthy #speaker: business partner
+    we'll never have to starve again unlike these poor souls down here
+    Yeah... #speaker:me
+    so what your name, partner 
+    I'm Alex #speaker:Alex
+    how about you, what's yours
+    (i tell alex my name) #speaker:me
+    Cool name, i can't wait to do buisness with you #speaker:Alex
+    Bye 
+    bye #speaker:me
     
     ** NO #portrait:mx
-    no i wont #portrait:mx
+        who do you think i am ? #speaker:me (angry)
+    you really think i would aboandon my job and these people
+    for some cash
+    hmph only scums like you would take advantage of these poor people 
+    the world may have gone to shit but at least
+    i can help alleviate the pain these people are going through
+    unlike you scum who want to watch the world burn
+    for such a petty, materialistic reason
+    Money
+    you really think your any better than me #speaker:scumbag
+    just watch, everything you work so hard for
+    all the work you've put in for this sorry excuse of a food bank
+    will be for nothing
+    this is the world we live in now 
+    at least i'm trying to save myself 
+    hmph #speaker:me
+    whatever you say #speaker:me
     
     ** lie #portrait:mx
-    I'll think about it    #portrait:mx 
+    I'll think about it    #speaker:me  #portrait:mx
+    you'll think about it !? #speaker: Annoyed person
+    what more is there to think about ?
+    do you want money or not ?
+    i said i'll think about #speaker:me
+    you know how hard a decision like this is to make
+    i could literally send hundreds of people to their death
+    so just let me think about It
+    hmm? ok i get it, you have a conscience #speaker:annoyed person
+    but if you take too long 
+    i'll just ask some other food bank 
+    surely there's another one in this godforsaken city
+    goodbye
+    goodbye #speaker:me
     
    
 
@@ -475,8 +571,6 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
                 se ya#speaker:timmy
             
             
-            
-                
     *No #portrait:timmy
     wait, Why #speaker:timmy
     what'd i do wrong
@@ -503,6 +597,4 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
     Please leave now!
     
     -  Time to close for today it's getting late #speaker:Me #portrait:timmy
-
-
     -> END
