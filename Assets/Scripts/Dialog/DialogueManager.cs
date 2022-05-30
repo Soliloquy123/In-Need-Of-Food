@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 
@@ -57,6 +58,7 @@ public class DialogueManager : MonoBehaviour
         }
         instance = this;
 
+        
         
     }
 
@@ -129,6 +131,13 @@ public class DialogueManager : MonoBehaviour
         // display each letter one at a time
         foreach (char letter in line.ToCharArray())
         {
+            // if the submit button is pressed, finish up displaying line
+           /* if (nextLine.onClick)
+            {
+                dialogueText.text = line;
+                break;
+            }*/
+
             dialogueText.text += letter;
             yield return new WaitForSeconds(typingSpeed); 
         }

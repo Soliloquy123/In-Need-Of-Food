@@ -478,7 +478,7 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
     *Yes #portrait:timmy #speaker:Me
          How much food should i give ? #portrait:timmy #speaker:Me (Thinking)
             ** 1 Portion #portrait:timmy #speaker:Me (Thinking)
-            I'm so sorry timmy #speaker:Me
+            I'm so sorry timmy #speaker:Me #portrait:timmy
             i'm not allowed to give 2 portions to one person 
             trust me i wish i could
             but if i did less people would be able to eat
@@ -501,14 +501,14 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
             (as it might help sway my decision)
              Tell timmy your name?
                  *** Yes #portrait:timmy
-                    (Whispering)#speaker:Me
+                    (Whispering)#speaker:Me #portrait:timmy
                      That a nice name#speaker:timmy
                      thank you timmy#speaker:Me
                     your welcome, have a nice day #speaker:timmy
                     you too#speaker:Me
             
                  ***no #portrait:timmy
-                     awww why? #speaker:timmy
+                     awww why? #speaker:timmy #portrait:timmy
                     it's against the rules #speaker:Me
                     i'll be fired
                     im sorry, timmy
@@ -518,10 +518,10 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
                     alright, timmy see you again soon #speaker:Me
                      see ya #speaker:timmy
                      
-                *** tell him a fake name     
-                    My name's Alex #speaker: "Alex" 
-                    ha ha ha #speaker:Timmy
-                    your lying, right ?
+                *** tell him a fake name      #portrait:timmy
+                    My name's Alex #speaker: "Alex"  #portrait:timmy
+                    ha ha ha #speaker:Timmy #portrait:timmy
+                    your lying, right ? #portrait:timmy
                     What gave it away ? #speaker:Me 
                     I don't know #speaker:Timmy 
                     it just didn't sound right
@@ -553,14 +553,14 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
             as it might help sway my decision)
              Tell timmy your name?
                  *** Yes #portrait:timmy
-                (Whispering)#speaker:Me
+                (Whispering)#speaker:Me #portrait:timmy
                 That a nice name#speaker:timmy
                 thank you timmy#speaker:Me
                 your welcome, have a nice day #speaker:timmy
                 you too#speaker:Me
             
                 ***no  #portrait:timmy
-                awww why? #speaker:timmy
+                awww why? #speaker:timmy #portrait:timmy
                 it's against the rules #speaker:Me
                 i'll be fired
                 im sorry, timmy
@@ -569,11 +569,25 @@ Should I give timmy food? #speaker:Me (Thinking) #portrait:timmy
                 i got to get going #speaker:timmy
                 alright, timmy see you again soon #speaker:Me
                 se ya#speaker:timmy
+                
+                 *** tell him a fake name     #portrait:timmy
+                    My name's Alex #speaker: "Alex"  #portrait:timmy
+                    ha ha ha #speaker:Timmy #portrait:timmy
+                    your lying, right ? #portrait:timmy
+                    What gave it away ? #speaker:Me  #portrait:timmy
+                    I don't know #speaker:Timmy  #portrait:timmy
+                    it just didn't sound right
+                    Your a smart kid, timmy #speaker:Me 
+                    Thanks "Alex" #speaker:Timmy
+                    ha ha ha #speaker:Me
+                    alright i got to get going #speaker:Timmy 
+                    goodbye
+                    goodbye #speaker:Me 
             
             
     *No #portrait:timmy
-    wait, Why #speaker:timmy
-    what'd i do wrong
+    wait, Why #speaker:timmy #portrait:timmy
+    what'd i do wrong #portrait:timmy
     oh no what am i going to eat what am i going to do
     oh no oh no oh no oh no
     please im begging you give me some food 
