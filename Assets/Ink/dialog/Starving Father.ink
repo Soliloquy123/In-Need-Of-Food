@@ -8,7 +8,7 @@ Can you give us 2 portions of food ?
 We've? #speaker:Me
  My Daughter is also starving #speaker:Starving 'Father'
 Where is She? #speaker:Me
- ... At Home  #speaker:Starving 'Father'
+ ... At Home probably with her grandmother #speaker:Starving 'Father'
  Why isn't she here  #speaker:Me
  You should know we can only give out food to people that are here 
  But he's sick #speaker:Starving 'Father'
@@ -64,7 +64,12 @@ Should I Give him or maybe "Them" food? #speaker:Me (Thinking) #portrait:starvin
     I'm sorry sir but you need to go now #speaker:Me #portrait:starving_man
     
 -  Please Move Along! #speaker:Me #portrait:starving_man
-
+(An old woman with young child walk) #speaker:Me (Thinking) #portrait:edith_sara
+(on their way in the old lady looks back at he man before them)
+(She is trying to get better look but doesn't get one)
+(she and the child wallk up to the table in front of me)
+(the old lady looks as she has something on her mind)
+(maybe she's still thinking of the man that just left)
  May I have 2 Portions of Food #speaker:old lady #portrait:edith_sara
  (the young girl tip toes above the table to speak louder) #speaker:Me (Thinking)
  We've been starving for Weeks #speaker:young girl #portrait:edith_sara
@@ -248,6 +253,109 @@ Should I accept the money? #speaker:Me (Thinking) #portrait:rich_guy
     just see how far you will get
     
 -  Please Move Along! #speaker:Me #portrait:rich_guy
+
+(sigh* The sun's coming down soon)  #speaker:Me (Thinking) #portrait:mx
+(I can probably serve two more people before i should close up) #speaker:Me (Thinking) #portrait:mx
+(I see a woman come in she has a look of surprise on her face)#speaker:Me (Thinking) #portrait:mx
+(as if she has been awestricken) #speaker:Me (Thinking) #portrait:mx
+Excuse miss how may help you ? #speaker:Me #portrait:mx
+MX #speaker:awestricken person #portrait:mx
+Oh, sorry my bad i didn't know #speaker:Me #portrait:mx
+No problem, it's alright #speaker: person #portrait:mx
+so your probably wondering why i look so surprised #portrait:mx
+
+    *Sort of, yes #portrait:mx
+    well it's because i'm amazed at all the money your losing out on right now #speaker: person #portrait:mx
+    huh? #speaker:Me 
+    What do you mean?
+    well think about #speaker: person
+    you have food in the back yes? presumably in a storage room of sorts Right?
+    Well yeah of course i do it's a food bank #speaker:Me (confused)
+    yeah, and you have all these people out here "waiting" for food #speaker:person
+    Well yeah, we are in a food crisis right now #speaker:Me (confused)
+    Think about it #speaker: A idea proposing person
+    If you just start selling the food
+    like how a supermarket used to work back in the days
+    and maybe bump the prices down a notch 
+    so these people can afford them
+    Excuse me Mx, but do you not know how a food bank works #speaker:Me (slightly angry)
+    not only are we here to give food to the people who cant afford it
+    due to the exorbitant prices and the high inflation rates
+    these past few decades
+    but also, even if i were to consider your proposal,
+    the food we get are from donations from either the well off 
+    or the government how do you expect me to keep getting stock
+    Simple really, you save up a bunch of stock of food #speaker: Devious Person
+    that have a far expiry date for a couple months
+    by denying people food 
+    then you start selling the food you've saved up
+    and by then you would have enough money to start buying your own food
+    and voila now you have a sustainable buisness and we're rich 
+    we're ? #speaker:Me 
+    what makes you think i would let you in on it aswell#speaker:Me 
+    well i just told you this plan #speaker: Mischievous person
+    so? #speaker:Me
+    Well i wonder what would happen if i told the police or goverment #speaker: astute, devious person
+    about how your keeping food for your own monetary gain 
+    Maybe they'll come knocking on your door 
+    maybe then they'll arrest you 
+    Alright, alright i see your point #speaker:Me 
+    So how about it, ready to "reform" this "food Bank together
+    
+         
+    *No, not really #portrait:mx
+    hmm? well i'll tell you anyway #speaker: Person #portrait:mx
+    it's because i'm amazed at all the money your losing out on right now #speaker: person
+    huh? #speaker:Me 
+    What do you mean?
+    well think about #speaker: person
+    you have food in the back yes? presumably in a storage room of sorts Right?
+    Well yeah of course i do it's a food bank #speaker:Me (confused)
+    yeah, and you have all these people out here "waiting" for food #speaker:person
+    Well yeah, we are in a food crisis right now #speaker:Me (confused)
+    just Think about it for a sec #speaker: A idea proposing person
+    If you just start selling the food
+    like how a supermarket used to work back in the days
+    and maybe bump the prices down a notch 
+    so these people can afford them
+    Excuse me Mx, but do you not know how a food bank works #speaker:Me (slightly angry)
+    not only are we here to give food to the people who cant afford it
+    due to the exorbitant prices and the high inflation rates
+    these past few decades
+    but also even if i were to consider your proposal,
+    the food we get are from donations from either the well off 
+    or the government how do you expect me to keep getting stock
+    Simple really, you save up a bunch of stock of food #speaker: Devious Person
+    that have a far expiry date for a couple months
+    by denying people food 
+    then you start selling the food you've saved up
+    and by then you would have enough money to start buying your own food
+    and voila now you have a sustainable buisness and we're rich 
+    we're ? #speaker:Me 
+    what makes you think i would let you in on it aswell#speaker:Me 
+    well i just told you this plan #speaker: Mischievous person
+    so? #speaker:Me
+    Well i wonder what would happen if i told the police or goverment #speaker: astute, devious person
+    about how your keeping food for your own monetary gain 
+    Maybe they'll come knocking on your door 
+    maybe then they'll arrest you 
+    Alright, alright i see your point #speaker:Me 
+    So how about it, ready to "reform" this "food Bank together
+    
+    Should accept their proposal ? #portrait:mx
+    
+    ** yes #portrait:mx
+    YEs i will #portrait:mx
+    
+    ** NO #portrait:mx
+    no i wont #portrait:mx
+    
+    ** lie #portrait:mx
+    I'll think about it    #portrait:mx 
+    
+   
+
+-  Please Move Along! #speaker:Me
 
 Hi there young boy #speaker:Me #portrait:timmy
 what's your name
